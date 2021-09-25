@@ -1,0 +1,232 @@
+<template>
+  <section id="about-me">
+    <div class="grid-container">
+      <div class="text-wrapper">
+        <h2 class="about-me-anim">IDA SKJØDT OLESEN</h2>
+        <p class="about-me-anim">
+          I am a graduated Multimedia Design student in search for a company
+          that will enable me to develop my creative skills.<br />
+          <br />
+          I am captivated by video and image. I find a big value in how you can
+          convey a message by simple pictures put together. The end result is
+          always worth the whole process. <br />
+          <br />
+          Im interested in film, animation and motion graphics, and would like
+          to grow my knowledge and skills within this field.
+        </p>
+        <div class="based-in-aarhus">
+          <img
+            src="../assets/images/based_in_aarhus_icon.png"
+            alt="personal contact icon"
+          />
+          <h3>Based in Aarhus</h3>
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <img
+          src="../assets/images/holding_camera_filter.png"
+          alt="Ida's image"
+        />
+        <div>I</div>
+      </div>
+      <div class="image-wrapper">
+        <img src="../assets/images/picturetime.png" alt="Ida's image" />
+        <div>D</div>
+      </div>
+      <div class="image-wrapper">
+        <img src="../assets/images/takingpic_filter.png" alt="Ida's image" />
+        <div>A</div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+export default {
+  name: "AboutMe",
+  mounted: function () {
+    gsap.from(".about-me-anim", {
+      scrollTrigger: {
+        trigger: "#about-me",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: "power1.inOut",
+    });
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+section {
+  width: 100%;
+}
+.grid-container {
+  width: 100%;
+  height: 150vh;
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+  padding: 24px 0;
+}
+.image-wrapper {
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  &::after {
+    content: "";
+    width: 75%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+  }
+  &:nth-of-type(2),
+  &:nth-of-type(2)::after {
+    background-color: #eb78c4;
+  }
+  &:nth-of-type(3),
+  &:nth-of-type(3)::after {
+    background-color: #b6abf9;
+  }
+  &:nth-of-type(4),
+  &:nth-of-type(4)::after {
+    background-color: #e54575;
+  }
+  img {
+    height: 100%;
+    width: 80%;
+    width: 75%;
+    object-fit: cover;
+    object-position: center 10%;
+  }
+  div {
+    width: 25%;
+    color: white;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.text-wrapper {
+  background-color: #f1ebe7;
+  color: #95867d;
+  padding: 32px;
+  h2 {
+    font-size: 32px;
+    padding-bottom: 32px;
+    position: relative;
+    text-align: left;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 40%;
+      height: 5px;
+      background-color: #95867d;
+      left: 0;
+      bottom: 0;
+    }
+  }
+  p {
+    padding-top: 32px;
+    font-size: 18px;
+    text-align: left;
+  }
+}
+.based-in-aarhus {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  img {
+    width: 75px;
+  }
+  h3 {
+    padding-left: 16px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 130vh;
+    grid-gap: 36px;
+    padding: 36px 0;
+  }
+  .text-wrapper {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    padding: 64px;
+    h2 {
+      font-size: 48px;
+      text-align: left;
+      &::after {
+        left: 0;
+        transform: translateX(0);
+        width: 15%;
+      }
+      padding-bottom: 72px;
+    }
+    p {
+      padding-top: 72px;
+      font-size: 20px;
+      width: 85%;
+    }
+  }
+  .image-wrapper {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+
+    img {
+      width: 75%;
+      object-fit: cover;
+      object-position: center 8%;
+    }
+    div {
+      width: 25%;
+      font-size: 128px;
+    }
+  }
+  .based-in-aarhus {
+    padding-top: 64px;
+    img {
+      width: 90px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .grid-container {
+    height: 110vh;
+  }
+  .text-wrapper {
+    p {
+      font-size: 22px;
+      width: 80%;
+    }
+  }
+  .based-in-aarhus {
+    padding-top: 80px;
+    img {
+      width: 100px;
+    }
+    h3 {
+      font-size: 32px;
+    }
+  }
+}
+</style>

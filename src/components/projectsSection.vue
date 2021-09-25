@@ -1,0 +1,316 @@
+<template>
+  <section>
+    <div class="grid-container">
+      <div class="project project-1">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-1-anim">Country wellness</h2>
+          <p class="project-1-anim">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
+            enim pellentesque sodales id. Donec convallis maecenas viverra
+            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
+            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+            lacinia eleifend.
+          </p>
+          <router-link class="project-1-anim" to="/">See more</router-link>
+        </div>
+      </div>
+      <div class="project project-2">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-2-anim">Billig Animation</h2>
+          <p class="project-2-anim">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
+            enim pellentesque sodales id. Donec convallis maecenas viverra
+            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
+            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+            lacinia eleifend.
+          </p>
+          <router-link class="project-2-anim" to="/">See more</router-link>
+        </div>
+      </div>
+      <div class="project project-3">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-3-anim">Regrow</h2>
+          <p class="project-3-anim">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
+            enim pellentesque sodales id. Donec convallis maecenas viverra
+            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
+            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+            lacinia eleifend.
+          </p>
+          <router-link class="project-3-anim" to="/regrow"
+            >See more</router-link
+          >
+        </div>
+      </div>
+      <div class="project project-4">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-4-anim">Smokepins</h2>
+          <p class="project-4-anim">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
+            enim pellentesque sodales id. Donec convallis maecenas viverra
+            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
+            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+            lacinia eleifend.
+          </p>
+          <router-link class="project-4-anim" to="/">See more</router-link>
+        </div>
+      </div>
+      <div class="project project-5">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-5-anim">Grafisk design</h2>
+          <p class="project-5-anim">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
+            enim pellentesque sodales id. Donec convallis maecenas viverra
+            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
+            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+            lacinia eleifend.
+          </p>
+          <router-link class="project-5-anim" to="/">See more</router-link>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+export default {
+  name: "Projects",
+  mounted: function () {
+    gsap.from(".project-1-anim", {
+      scrollTrigger: {
+        trigger: ".project-1",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: "power1.inOut",
+    });
+    gsap.from(".project-2-anim", {
+      scrollTrigger: {
+        trigger: ".project-2",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: "power1.inOut",
+    });
+    gsap.from(".project-3-anim", {
+      scrollTrigger: {
+        trigger: ".project-3",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: "power1.inOut",
+    });
+    gsap.from(".project-4-anim", {
+      scrollTrigger: {
+        trigger: ".project-4",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: "power1.inOut",
+    });
+    gsap.from(".project-5-anim", {
+      scrollTrigger: {
+        trigger: ".project-5",
+        start: "top 70%",
+      },
+      opacity: 0,
+      y: 30,
+      duration: 0.3,
+      stagger: 0.3,
+      ease: "power1.inOut",
+    });
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+section {
+  width: 100%;
+}
+.grid-container {
+  width: 100%;
+  grid-auto-rows: minmax(min-content, max-content);
+  display: grid;
+  grid-gap: 24px;
+}
+.project {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: pointer;
+  .background-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    &:nth-of-type(1) {
+      background-image: url("../assets/images/holding_camera_filter.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  &:hover .background-container {
+    opacity: 0.4;
+  }
+  .content-contaienr {
+    width: 100%;
+    color: white;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    h2 {
+      font-size: 32px;
+      padding-bottom: 32px;
+      position: relative;
+      text-transform: uppercase;
+      text-align: left;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 5px;
+        background-color: #fff;
+        left: 0;
+        bottom: 0;
+      }
+    }
+    p {
+      padding-top: 32px;
+      font-size: 18px;
+      text-align: left;
+    }
+    a {
+      display: inline-block;
+      align-self: flex-start;
+      margin-top: 24px;
+      background-color: #fff;
+      text-decoration: none;
+      padding: 8px 32px 8px 12px;
+      text-transform: uppercase;
+      border: 2px solid white;
+      transition: all 0.3s ease;
+      font-weight: 600;
+      &:hover {
+        background-color: transparent;
+        color: white;
+      }
+    }
+  }
+}
+.project-1,
+.project-4 {
+  background-color: #e877c1;
+  a {
+    color: #e877c1;
+  }
+}
+.project-2,
+.project-5 {
+  background-color: #b6abf9;
+  a {
+    color: #b6abf9;
+  }
+}
+
+.project-3 {
+  background-color: #e54575;
+  a {
+    color: #e54575;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  section {
+    width: 100%;
+  }
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-gap: 36px;
+  }
+  .project {
+    .content-contaienr {
+      padding: 64px;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-size: 48px;
+        text-align: left;
+
+        &::after {
+          left: 0;
+          transform: translateX(0);
+          width: 15%;
+        }
+        padding-bottom: 48px;
+      }
+      p {
+        padding-top: 48px;
+        font-size: 20px;
+        width: 85%;
+      }
+      a {
+        align-self: flex-start;
+        margin-top: 48px;
+        padding: 12px 48px 12px 16px;
+        border-width: 3px;
+        font-size: 24px;
+      }
+    }
+  }
+  .project-3 {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    .content-contaienr {
+      h2 {
+        text-align: center;
+        &::after {
+          left: 50%;
+          transform: translateX(-50%);
+          width: 10%;
+        }
+      }
+      p {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      a {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 12px 32px 12px 32px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .project {
+    p {
+      font-size: 22px;
+    }
+  }
+}
+</style>
