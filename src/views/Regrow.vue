@@ -1,18 +1,24 @@
 <template>
-  <section></section>
+  <div id="spacer"></div>
+  <TextBox text="regrow" />
 </template>
 
 <script>
-export default {};
+import TextBox from "../components/textBox.vue";
+export default {
+  components: {
+    TextBox,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-section {
+#spacer {
   width: 100%;
   height: 8vh;
 }
 @media only screen and (min-width: 1024px) {
-  section {
+  #spacer {
     height: 12vh;
   }
 }

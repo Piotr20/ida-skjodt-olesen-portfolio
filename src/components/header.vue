@@ -1,9 +1,8 @@
 <template>
   <header>
     <router-link to="/">
-      <a href="#">
-        <img src="../assets/images/logo.png" alt="Ida Skjødt Olesen logo" /></a
-    ></router-link>
+      <img src="../assets/images/logo.png" alt="Ida Skjødt Olesen logo" />
+    </router-link>
     <nav>
       <a href="#home">Home</a>
       <a href="#portfolio">Portfolio</a>
