@@ -35,12 +35,38 @@
       'Social Media',
     ]"
     :toolsSrc="[
-      '../assets/images/skills-icons/file-icons_adobe-photoshop.png',
-      '../assets/images/skills-icons/file-icons_adobe-illustrator.png',
-      '../assets/images/skills-icons/file-icons_adobe-premiere.png',
-      '../assets/images/skills-icons/file-icons_adobe-aftereffects.png',
-      '../assets/images/skills-icons/file-icons_adobe-xd.png',
+      {
+        src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),
+      },
+      {
+        src: require('../assets/images/skills-icons/file-icons_adobe-illustrator.png'),
+      },
+
+      {
+        src: require('../assets/images/skills-icons/file-icons_adobe-premiere.png'),
+      },
+
+      {
+        src: require('../assets/images/skills-icons/file-icons_adobe-aftereffects.png'),
+      },
+      {
+        src: require('../assets/images/skills-icons/file-icons_adobe-xd.png'),
+      },
+      {
+        src: require('../assets/images/skills-icons/akar-icons_html-fill.png'),
+      },
+      {
+        src: require('../assets/images/skills-icons/akar-icons_css-fill.png'),
+      },
+      {
+        src: require('../assets/images/skills-icons/brandico_wordpress.png'),
+      },
     ]"
+    purposeText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Nunc nisl enim pellentesque sodales id. Donec convallis maecenas 
+    viverra venenatis tincidunt consectetur pulvinar.
+    Donec convallis maecenas viverra venenatis tincidunt
+     consectetur pulvinar dignissim."
   />
 </template>
 <script>

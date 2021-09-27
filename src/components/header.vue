@@ -160,7 +160,7 @@ nav {
     }
   }
   nav {
-    display: block;
+    display: flex;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
