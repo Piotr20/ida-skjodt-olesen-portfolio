@@ -2,12 +2,25 @@
   <section>
     <div class="client-details">
       <h2>CLIENT</h2>
+      <h3>{{ client }}</h3>
     </div>
     <div class="services-details">
       <h2>SERVICES</h2>
+      <ul>
+        <template v-for="(service, index) in services" :key="index">
+          <li>
+            <h3>{{ service }}</h3>
+          </li>
+        </template>
+      </ul>
     </div>
     <div class="tools-details">
       <h2>USED TOOLS</h2>
+      <div class="grid-container">
+        <template v-for="(image, index) in toolsSrc" :key="index">
+          <img :src="image" alt="tool icon" />
+        </template>
+      </div>
     </div>
   </section>
 </template>
@@ -15,6 +28,14 @@
 <script>
 export default {
   name: "ProjectDetails",
+  props: {
+    client: String,
+    services: Array,
+    toolsSrc: Array,
+  },
+  mounted: function () {
+    console.log(this.toolsSrc[0]);
+  },
 };
 </script>
 
@@ -23,7 +44,7 @@ section {
   width: 100%;
   margin: 24px 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+
   gap: 24px;
   div {
     padding: 32px;
@@ -64,6 +85,7 @@ section {
 @media only screen and (min-width: 1024px) {
   section {
     margin: 36px 0;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 36px;
     div {
       padding: 64px;

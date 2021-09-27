@@ -23,9 +23,26 @@
       />
     </div>
   </section>
-  <ProjectDetails />
+  <ProjectDetails
+    client="RePot ApS"
+    :services="[
+      'Rebranding',
+      'Logo',
+      'Website',
+      'Storyscaping - UX',
+      'Animations',
+      'Animations',
+      'Social Media',
+    ]"
+    :toolsSrc="[
+      '../assets/images/skills-icons/file-icons_adobe-photoshop.png',
+      '../assets/images/skills-icons/file-icons_adobe-illustrator.png',
+      '../assets/images/skills-icons/file-icons_adobe-premiere.png',
+      '../assets/images/skills-icons/file-icons_adobe-aftereffects.png',
+      '../assets/images/skills-icons/file-icons_adobe-xd.png',
+    ]"
+  />
 </template>
-
 <script>
 import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
