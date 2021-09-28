@@ -111,9 +111,4 @@ section {
     grid-column: 2/3;
   }
 }
-@media only screen and (min-width: 1440px) {
-  .grid-conainer {
-    height: 50vh;
-  }
-}
 </style>
