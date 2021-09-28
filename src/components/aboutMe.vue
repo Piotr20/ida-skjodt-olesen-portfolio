@@ -160,7 +160,7 @@ section {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 130vh;
+    height: fit-content;
     grid-gap: 36px;
     padding: 36px 0;
   }
