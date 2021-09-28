@@ -99,7 +99,7 @@ section {
   }
   .grid-conainer {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
     height: 100vh;
     grid-gap: 36px;
     h2 {

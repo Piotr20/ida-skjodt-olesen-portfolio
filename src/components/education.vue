@@ -83,7 +83,7 @@ section {
 @media only screen and (min-width: 1024px) {
   .grid-conainer {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: minmax(min-content, max-content);
     height: 70vh;
     grid-gap: 36px;
     h2 {
