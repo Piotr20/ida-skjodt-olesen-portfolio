@@ -160,7 +160,6 @@ section {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: fit-content;
     grid-gap: 36px;
     padding: 36px 0;
   }
@@ -188,7 +187,7 @@ section {
     width: 100%;
     display: flex;
     overflow: hidden;
-
+    height: 100%;
     img {
       width: 75%;
       object-fit: cover;
@@ -211,7 +210,7 @@ section {
 }
 @media only screen and (min-width: 1024px) {
   .grid-container {
-    height: 130vh;
+    height: 115vh;
   }
   .text-wrapper {
     p {
