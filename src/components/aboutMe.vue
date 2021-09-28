@@ -210,6 +210,9 @@ section {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .grid-container {
+    height: 130vh;
+  }
   .text-wrapper {
     p {
       font-size: 22px;
