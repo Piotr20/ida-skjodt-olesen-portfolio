@@ -210,7 +210,7 @@ section {
 }
 @media only screen and (min-width: 1024px) {
   .grid-container {
-    height: 115vh;
+    height: 120vh;
   }
   .text-wrapper {
     p {
