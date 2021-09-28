@@ -105,7 +105,6 @@ section {
   }
   img {
     height: 100%;
-    width: 80%;
     width: 75%;
     object-fit: cover;
     object-position: center 10%;
@@ -210,7 +209,7 @@ section {
 }
 @media only screen and (min-width: 1024px) {
   .grid-container {
-    height: 120vh;
+    height: 130vh;
   }
   .text-wrapper {
     p {
