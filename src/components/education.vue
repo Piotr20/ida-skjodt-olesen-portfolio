@@ -84,7 +84,6 @@ section {
   .grid-conainer {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(min-content, max-content);
-    height: 70vh;
     grid-gap: 36px;
     h2 {
       font-size: 40px;

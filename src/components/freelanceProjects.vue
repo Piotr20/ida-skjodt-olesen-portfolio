@@ -100,7 +100,6 @@ section {
   .grid-conainer {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(min-content, max-content);
-    height: 100vh;
     grid-gap: 36px;
     h2 {
       font-size: 40px;
@@ -125,11 +124,6 @@ section {
   }
   .side-box-container {
     grid-row: 1/4;
-  }
-}
-@media only screen and (min-width: 1440px) {
-  .grid-conainer {
-    height: 80vh;
   }
 }
 </style>
