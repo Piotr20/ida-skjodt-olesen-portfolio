@@ -40,7 +40,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-3-anim" to="/regrow"
+          <router-link @click="call()" class="project-3-anim" to="/regrow"
             >See more</router-link
           >
         </div>
@@ -84,6 +84,11 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 export default {
   name: "Projects",
+  // methods: {
+  //   call() {
+  //     window.pageY = 0;
+  //   },
+  // },
   mounted: function () {
     gsap.from(".project-1-anim", {
       scrollTrigger: {

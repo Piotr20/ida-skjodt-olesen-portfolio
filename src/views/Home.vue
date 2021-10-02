@@ -33,6 +33,9 @@ import Contact from "../components/contact.vue";
 
 export default {
   name: "Home",
+  mounted() {
+    window.scrollTo(0, 0);
+  },
   components: {
     IntroSection,
     Projects,
