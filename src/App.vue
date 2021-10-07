@@ -14,7 +14,7 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: "Gluten", cursive;
+  font-family: "Urbanist", sans-serif;
   text-align: center;
   color: #2c3e50;
 }
