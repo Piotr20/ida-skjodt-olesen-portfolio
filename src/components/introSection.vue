@@ -1,9 +1,9 @@
 <template>
   <section id="home">
-    <h1 class="intro-anim">Hi</h1>
+    <h1 class="intro-anim">Hej</h1>
     <h2 class="intro-anim">
-      Im a <strong>Digital Designer</strong> with interest in
-      <strong>Motion Graphic Design</strong>
+      Jeg er <strong>digital designer</strong> med interesse i
+      <strong>motion graphic design</strong>
     </h2>
   </section>
 </template>
