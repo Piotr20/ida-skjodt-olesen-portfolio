@@ -2,10 +2,8 @@
   <section id="language">
     <h2 class="language-anim">Language</h2>
     <p class="language-anim">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus dolor at
-      urna cursus gravida et sed. Sagittis sed tortor vulputate ac ridiculus
-      egestas suspendisse. Dolor convallis eu nulla sed vel etiam molestie
-      purus. Suspendisse luctus non molestie varius suspendisse. F
+      Gennem min internationale uddannelse på Erhvervs Akademiet Aarhus, har jeg udviklede mine sproglige egenskaber, 
+      samt udvidet min kulturelle forståelse.
     </p>
     <div class="flags-container">
       <div class="language-anim">
@@ -13,7 +11,14 @@
           src="..\assets\images\emojione_flag-for-denmark.png"
           alt="Danish flag"
         />
-        <div><span>DANISH </span><br /><span>NATIVE PROFICIENCY</span></div>
+        <div><span>DANSK</span><br /><span>
+          <ul>
+            <li>Forståelse: Flydende/modersmål</li>
+            <li>Tale: Flydende/modersmål</li>
+            <li>Læse: Flydende/modersmål</li>
+            <li>Skrive: Flydende/modersmål</li>
+          </ul>
+</span></div>
       </div>
       <div class="language-anim">
         <img
@@ -22,7 +27,14 @@
         />
 
         <div>
-          <span>ENGLISH </span> <br /><span>FULL PROFESSIONAL PROFICIENCY</span>
+          <span>ENGELSK</span> <br /><span>
+            <ul>
+              <li>Forståelse: Flydende/modersmål</li>
+              <li>Tale: Flydende/modersmål</li>
+              <li>Læse: Flydende/modersmål</li>
+              <li>Skrive: Flydende/modersmål</li>
+            </ul> 
+</span>
         </div>
       </div>
     </div>
