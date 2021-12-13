@@ -1,25 +1,27 @@
 <template>
   <section id="competencies">
-    <h2 class="competencies-anim">COMPETENCIES</h2>
+    <h2 class="competencies-anim">KOMPETENCER OG KVALIFIKATIONER</h2>
     <div class="flex-wrapper">
       <div class="quote-container competencies-anim">
         <span>"</span>
         <h3>
-          I work dynamically in teams, but i also appreciate working on my own.
-          either way, i am always very organized and structured in the way i
-          work, and i have an eye for details. I tend to keep the spirit high
-          and work motivated through assignments and projects. I am very
-          dedicated and passionate about my profession.
+         En effektiv arbejdsdag for mit vedkommende, består af at kunne veksle 
+         mellem at indgå i grupper og kunne dele erfaringer og ekspertise med hinanden, 
+         samt at arbejde individuelt og koncentreret omkring en opgave. 
+         Nye udfordringer tager jeg imod med nysgerrighed og åbenhed.
+
         </h3>
         <span>"</span>
       </div>
 
       <ul>
-        <li class="competencies-anim">TEAMWORK & INDIVIDUAL WORK</li>
-        <li class="competencies-anim">STRUCTURED & ORGANIZED</li>
-        <li class="competencies-anim">MOTIVATED AND ENGAGED</li>
-        <li class="competencies-anim">ENERGETIC AND POSITIVE MINDSET</li>
-        <li class="competencies-anim">ATTENTION TO DETAIL</li>
+        <li class="competencies-anim">Organisering & planlægning</li>
+        <li class="competencies-anim">Pligtopfyldende & pålidelig</li>
+        <li class="competencies-anim">Smilende & positiv</li>
+        <li class="competencies-anim">Detaljeorienteret</li>
+        <li class="competencies-anim">Service minded</li>
+        <li class="competencies-anim">Kendskab til kundehåndtering</li>
+        <li class="competencies-anim">Gode kommunikations egenskaber internationalt</li>
       </ul>
     </div>
   </section>
