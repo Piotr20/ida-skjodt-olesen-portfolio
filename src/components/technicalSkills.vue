@@ -1,6 +1,6 @@
 <template>
   <section id="technical-skills">
-    <h2 class="technical-skills-anim">TECHNICAL SKILLS</h2>
+    <h2 class="technical-skills-anim">TEKNISK ERFARING</h2>
     <div class="skills-container">
       <div class="icon-box">
         <img

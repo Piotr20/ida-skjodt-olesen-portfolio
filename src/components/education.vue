@@ -5,15 +5,33 @@
         <SideHeading title="Education" />
       </div>
       <div class="education-box education-anim">
+        <h2>Business Academy Aarhus</h2>
+        <h3>2019 - 2021</h3>
+        <span>Multimedia Design AP - Content Creation</span>
+
+        <ul>
+          <li>Gennem uddannelsen har jeg udvidet min faglighed indenfor grundlæggende design teori, 
+            herunder digital design og lært omkring psykologiske faktorer der påvirker brugere. 
+            Jeg har kunne implementere denne viden i virkelighedsnære projekter.</li>
+          <li>Jeg har lært om traditionel markedsføring samt markedsføring gennem sociale medier 
+            og om hvordan man henvender sig strategisk til målgruppen, med målrettet content.</li>
+          <li>Jeg har arbejdet med forskellige content typer, herunder grafiske elementer, 
+            video og animation (motion graphics) henvendt til specifikke målgrupper.</li>
+          <li>Jeg har arbejdet med frontend programmering af hjemmesider, samt arbejdet med CMS-systemer.</li>
+          <li>I projekter har jeg primært stået for organiseringen og planlægning af arbejdsforløbet. 
+            Jeg har sørget for at alle opgaver bliver lavet i følge tidsplanen, 
+            og haft det forkromende overblik hele vejen igennem.</li>
+          <li>Gennem den internationale linje har jeg udviklet mine internationale og 
+            sproglige kompetencer, herunder fået en global forståelse af kulturer.</li>
+        </ul>
+      </div>
+      
+      <div class="education-box education-anim">
         <h2>Erhvervsgymnasiet Grindsted</h2>
         <h3>2015 - 2018</h3>
         <span>Højere Teknisk Eksamen (HTX) - Kommunikation & IT</span>
       </div>
-      <div class="education-box education-anim">
-        <h2>Business Academy Aarhus</h2>
-        <h3>2019 - 2021</h3>
-        <span>Multimedia Design AP - Content Creation</span>
-      </div>
+      
     </div>
   </section>
 </template>

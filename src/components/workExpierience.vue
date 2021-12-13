@@ -4,48 +4,46 @@
       <div class="side-box-container">
         <SideHeading title="Work experience" />
       </div>
+
       <div class="work-expierience-box work-expierience-anim">
-        <h2>MENY SØNDER OMME</h2>
-        <h3>Juni 2014 - Nuværende</h3>
-        <span>Service medarbejder</span>
-      </div>
-      <div class="work-expierience-box work-expierience-anim">
-        <h2>BILLUND AIRPORT</h2>
+        <h2>BILLUND LUFTHAVN</h2>
         <h3>Maj 2019 - September 2021</h3>
         <span>Kasseassistent i Sales</span>
+        <ul>
+          <li>At kunne holde et overblik i pressede situationer, 
+            samt at levere en god service til kunder, så de har en god oplevelse 
+            og en god start på deres rejse.</li>
+          <li>At opholde sig i et internationalt miljø, at kommunikere blandt mange kulturer.</li>
+          <li>At sikre sig at sikkerheds reglementer bliver overholdt, 
+            både for kunder og personalets sikkerhed.</li>
+        </ul>
       </div>
+
       <div class="work-expierience-box work-expierience-anim">
-        <h2>VIRAL FILM (INTERNSHIP)</h2>
+        <h2>MENY SØNDER OMME</h2>
+        <h3>Juni 2014 - August 2021</h3>
+        <span>Service medarbejder</span>
+        <ul>
+          <li>Ansvarlig for at butikken i aftentimerne, 
+            samt at kunne håndtere og løse evt. uforudsete situationer der kunne opstå.</li>
+          <li>Sørge for at kunderne får en god oplevelse på deres indkøbstur, 
+            og at de får den hjælp de har behov for, samt at de får et smil med på vejen.</li>
+        </ul>
+      </div>
+    
+      <div class="work-expierience-box work-expierience-anim">
+        <h2>VIRAL FILM (PRAKTIK)</h2>
         <h3>Januar 2021 - April 2021</h3>
         <span>Motion Graphics praktikant</span>
         <ul>
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id.
-          </li>
-          <li>
-            Donec convallis maecenas viverra venenatis tincidunt consectetur
-            pulvinar dignissim. Elit lacus donec at auctor commodo, urna auctor
-            quam.
-          </li>
-          <li>Dolor consequat, eget elementum lacinia eleifend.</li>
-        </ul>
-      </div>
-      <div class="work-expierience-box work-expierience-anim">
-        <h2>VIRAL FILM (FulLTIME)</h2>
-        <h3>August 2021 - September 2021</h3>
-        <span>Digital Designer og Animator</span>
-        <ul>
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id.
-          </li>
-          <li>
-            Donec convallis maecenas viverra venenatis tincidunt consectetur
-            pulvinar dignissim. Elit lacus donec at auctor commodo, urna auctor
-            quam.
-          </li>
-          <li>Dolor consequat, eget elementum lacinia eleifend.</li>
+          <li>Jeg har gennem praktikken været en del af den overordnede arbejdsproces. 
+            Fra kunden kommer med et ønske om animationsfilm til de får deres færdige produkt.</li>
+          <li>Kundekontakt i forbindelse med opstartsfasen, dialoger om hvilket produkt kunden ønsker. 
+            Samt sparring med kunden gennem hele fasen.</li>
+          <li>Udarbejdelse af animationsfilm, i programmet Vyond, samt redigering og lyddesign af filmen i Premiere Pro.</li>
+          <li>Udarbejdelse af grafikker, i Illustrator og photoshop, samt udarbejdelse af video og animation, i After Effects, 
+            som som supplement til animationsfilm.</li>
+          <li>En stor del af arbejdet har involveret kreativ formidling af diverse budskaber skriftligt, visuelt og auditiv.</li>
         </ul>
       </div>
     </div>

@@ -11,10 +11,6 @@
         <br><br> For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min motivation for mit arbejde, 
         da det at samarbejder kan bibringe ellers usete perspektiver på en given sag. 
         Jeg holder af at sprede godt humør blandt de mennesker jeg omgås dagligt.
-        
-        <br><br> En effektiv arbejdsdag for mit vedkommende, består af at kunne veksle mellem at indgå i grupper og 
-        kunne dele erfaringer og ekspertise med hinanden, samt at arbejde individuelt og koncentreret omkring en opgave. 
-        Nye udfordringer tager jeg imod med nysgerrighed og åbenhed.
 
         </p>
         <div class="based-in-aarhus">

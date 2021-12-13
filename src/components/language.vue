@@ -1,6 +1,6 @@
 <template>
   <section id="language">
-    <h2 class="language-anim">Language</h2>
+    <h2 class="language-anim">SPROG</h2>
     <p class="language-anim">
       Gennem min internationale uddannelse på Erhvervs Akademiet Aarhus, har jeg udviklede mine sproglige egenskaber, 
       samt udvidet min kulturelle forståelse.
