@@ -4,22 +4,25 @@
       <div class="text-wrapper">
         <h2 class="about-me-anim">IDA SKJØDT OLESEN</h2>
         <p class="about-me-anim">
-          I am a graduated Multimedia Design student in search for a company
-          that will enable me to develop my creative skills.<br />
-          <br />
-          I am captivated by video and image. I find a big value in how you can
-          convey a message by simple pictures put together. The end result is
-          always worth the whole process. <br />
-          <br />
-          Im interested in film, animation and motion graphics, and would like
-          to grow my knowledge and skills within this field.
+          Jeg er særlig passioneret omkring at skabe fortællinger og dele budskaber gennem bevægelige billeder, 
+          heriblandt video og animation (motion graphics). Processen med at nørkler med små elementer, 
+          som forener sig og går ubemærket hen og bliver stykket sammen som en helhed, giver mig drive.
+
+        <br> For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min motivation for mit arbejde, 
+        da det at samarbejder kan bibringe ellers usete perspektiver på en given sag. 
+        Jeg holder af at sprede godt humør blandt de mennesker jeg omgås dagligt.
+        
+        <br> En effektiv arbejdsdag for mit vedkommende, består af at kunne veksle mellem at indgå i grupper og 
+        kunne dele erfaringer og ekspertise med hinanden, samt at arbejde individuelt og koncentreret omkring en opgave. 
+        Nye udfordringer tager jeg imod med nysgerrighed og åbenhed.
+
         </p>
         <div class="based-in-aarhus">
           <img
             src="../assets/images/based_in_aarhus_icon.png"
             alt="personal contact icon"
           />
-          <h3>Based in Aarhus</h3>
+          <h3>Placeret i Aarhus</h3>
         </div>
       </div>
       <div class="image-wrapper">
