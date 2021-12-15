@@ -4,29 +4,31 @@
       <div class="side-box-container">
         <SideHeading title="Freelance Projects" />
       </div>
+        <div class="freelance-box freelance-anim">
+        <h2>Country Wellness ApS</h2>
+        <h3>September 2020 – Nuværende</h3>
+        <span
+          >Arbejdet med skabelse af brand identitet, herunder logo, grafiske designs and sociale medier.</span
+        >
+      </div>
+       <div class="freelance-box freelance-anim">
+        <h2>Smokepins ApS</h2>
+        <h3>August 2020 – September 2020</h3>
+        <span
+          >Gruppeprojekt og freelance. Arbejdet med visuel brand identitet, 
+          herunder udarbejdelse af logo, grafiske designs og sociale medier.</span
+        >
+      </div>
       <div class="freelance-box freelance-anim">
         <h2>Naturrum Sønder Omme</h2>
         <h3>2016 – 2019</h3>
         <span
-          >Volunteer freelancer, working with graphic and digital elements such
-          as; logo, video, photography. Together with SoMe</span
+          >Gruppeprojekt og frivillig freelance. Arbejdet med grafiske og digitale elementer, 
+          herunder logo, video, fotografering, sociale medier.</span
         >
       </div>
-      <div class="freelance-box freelance-anim">
-        <h2>Smokepins ApS</h2>
-        <h3>August 2020 – September 2020</h3>
-        <span
-          >Freelancer working with visual identity, logo, graphic designs.</span
-        >
-      </div>
-      <div class="freelance-box freelance-anim">
-        <h2>Country Wellness ApS</h2>
-        <h3>September 2020 – Nuværende</h3>
-        <span
-          >Freelancer working with logo, other graphic designs, and social
-          media.</span
-        >
-      </div>
+     
+    
     </div>
   </section>
 </template>
