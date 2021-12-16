@@ -2,7 +2,7 @@
   <section id="education">
     <div class="grid-conainer">
       <div class="side-box-container">
-        <SideHeading title="Education" />
+        <SideHeading title="Uddannelse" />
       </div>
       <div class="education-box education-anim">
         <h2>Business Academy Aarhus</h2>
@@ -29,9 +29,11 @@
       <div class="education-box education-anim">
         <h2>Erhvervsgymnasiet Grindsted</h2>
         <h3>2015 - 2018</h3>
-        <span>Højere Teknisk Eksamen (HTX) - Kommunikation & IT</span>
-          <ul>Uddrag fra udtalelsen:
-            <li> Legatmodtageren har altid stillet sig til rådighed for skolen.</li>
+        <span>Højere Teknisk Eksamen (HTX) - Kommunikation & IT
+          <br><br>Uddrag fra udtalelsen til legatmodtagelse:
+        </span>
+          <ul>
+            <li>Legatmodtageren har altid stillet sig til rådighed for skolen.</li>
             <li>Legatmodtageren har igennem sine år på skolen påtaget sig et ansvar for alles trivsel.</li>
             <li>Legatmodtageren tager ansvar for egen læring og udvikling.</li>
             <li>Legatmodtageren har haft overskud til at deltage i skolerelateret aktiviteter udenfor skoletiden.</li>

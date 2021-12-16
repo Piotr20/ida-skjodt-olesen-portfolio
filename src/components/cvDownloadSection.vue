@@ -1,6 +1,6 @@
 <template>
   <section id="cv">
-    <h2 class="cv-anim">Want to download my cv?</h2>
+    <h2 class="cv-anim">Vil du downloade mit Cv?</h2>
     <a class="cv-anim" href="../assets/CV_Piotr_Pospiech.pdf" download
       >Download</a
     >

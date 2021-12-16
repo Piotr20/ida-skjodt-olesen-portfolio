@@ -2,7 +2,7 @@
   <section id="work-expierience">
     <div class="grid-conainer">
       <div class="side-box-container">
-        <SideHeading title="Work experience" />
+        <SideHeading title="Arbejdserfaring" />
       </div>
 
       <div class="work-expierience-box work-expierience-anim">
@@ -32,7 +32,7 @@
       </div>
     
       <div class="work-expierience-box work-expierience-anim">
-        <h2>VIRAL FILM (PRAKTIK)</h2>
+        <h2>VIRAL FILM / BILLIG ANIMATION</h2>
         <h3>Januar 2021 - April 2021</h3>
         <span>Motion Graphics praktikant</span>
         <ul>

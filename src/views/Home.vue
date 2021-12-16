@@ -2,7 +2,7 @@
   <IntroSection />
   <TextBox text="portfolio" />
   <Projects />
-  <TextBox text="about" />
+  <TextBox text="Om mig" />
   <About />
   <AboutMe />
   <TechSkills />

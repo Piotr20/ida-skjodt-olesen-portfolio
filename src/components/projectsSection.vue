@@ -4,7 +4,7 @@
       <div class="project project-1">
         <div class="background-container"></div>
         <div class="content-contaienr">
-          <h2 class="project-1-anim">Country wellness</h2>
+          <h2 class="project-1-anim">Billig Animation</h2>
           <p class="project-1-anim">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
             enim pellentesque sodales id. Donec convallis maecenas viverra
@@ -12,13 +12,13 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-1-anim" to="/">See more</router-link>
+          <router-link class="project-1-anim" to="/">Se mere</router-link>
         </div>
       </div>
       <div class="project project-2">
         <div class="background-container"></div>
         <div class="content-contaienr">
-          <h2 class="project-2-anim">Billig Animation</h2>
+          <h2 class="project-2-anim">Smokepins</h2>
           <p class="project-2-anim">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
             enim pellentesque sodales id. Donec convallis maecenas viverra
@@ -26,7 +26,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-2-anim" to="/">See more</router-link>
+          <router-link class="project-2-anim" to="/">Se mere</router-link>
         </div>
       </div>
       <div class="project project-3">
@@ -41,14 +41,14 @@
             lacinia eleifend.
           </p>
           <router-link @click="call()" class="project-3-anim" to="/regrow"
-            >See more</router-link
+            >Se mere</router-link
           >
         </div>
       </div>
       <div class="project project-4">
         <div class="background-container"></div>
         <div class="content-contaienr">
-          <h2 class="project-4-anim">Smokepins</h2>
+          <h2 class="project-4-anim">Country Wellness</h2>
           <p class="project-4-anim">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
             enim pellentesque sodales id. Donec convallis maecenas viverra
@@ -56,13 +56,13 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-4-anim" to="/">See more</router-link>
+          <router-link class="project-4-anim" to="/">Se mere</router-link>
         </div>
       </div>
       <div class="project project-5">
         <div class="background-container"></div>
         <div class="content-contaienr">
-          <h2 class="project-5-anim">Grafisk design</h2>
+          <h2 class="project-5-anim">Diverse projekter</h2>
           <p class="project-5-anim">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
             enim pellentesque sodales id. Donec convallis maecenas viverra
@@ -70,7 +70,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-5-anim" to="/">See more</router-link>
+          <router-link class="project-5-anim" to="/">Se mere</router-link>
         </div>
       </div>
     </div>

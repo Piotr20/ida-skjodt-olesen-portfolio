@@ -4,11 +4,11 @@
       <img src="../assets/images/logo.png" alt="Ida Skjødt Olesen logo" />
     </router-link>
     <nav>
-      <a href="#home">Home</a>
+      <a href="#home">Hjem</a>
       <a href="#portfolio">Portfolio</a>
-      <a href="#about">About</a>
+      <a href="#about">Om mig</a>
       <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
+      <a href="#contact">Kontakt mig</a>
     </nav>
     <div @click="displayBurger = !displayBurger" class="burger">
       <!-- implicit style (fas is assumed) -->

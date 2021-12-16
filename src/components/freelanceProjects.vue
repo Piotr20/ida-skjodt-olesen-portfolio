@@ -2,7 +2,7 @@
   <section id="freelance">
     <div class="grid-conainer">
       <div class="side-box-container">
-        <SideHeading title="Freelance Projects" />
+        <SideHeading title="Freelance Projekter" />
       </div>
         <div class="freelance-box freelance-anim">
         <h2>Country Wellness ApS</h2>
