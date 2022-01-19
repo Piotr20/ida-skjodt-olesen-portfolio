@@ -1,19 +1,15 @@
 <template>
   <div id="spacer"></div>
-  <TextBox text="regrow" />
+  <TextBox text="Billig Animation" />
   <section class="project-details">
     <div>
       <h2 class="">PROJECT BESKRIVELSE</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim
-        pellentesque sodales id. Donec convallis maecenas viverra venenatis
-        tincidunt consectetur pulvinar dignissim. Elit lacus donec at auctor
-        commodo, urna auctor quam. Dolor consequat, eget elementum lacinia
-        eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-        nisl enim pellentesque sodales id. Donec convallis maecenas viverra
-        venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at
-        auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-        lacinia eleifend.
+        Billig Animation ApS er en datterselskab til Viral Film ApS, som blev oprettet i 2017 og er placeret i Aarhus.
+        Billig Animation ApS tilbyder professionelle animationsfilm til lav markedspris. Formålet for virksomheden er,
+        at skabe kunde engagement på en sjov, unik og anderledes måde, netop gennem animationsfilm.
+        <br><br>
+        I samarbejdet med Billig Animation, benyttede vi virksomheden som case til vores afsluttende eksamensprojekt.
       </p>
     </div>
     <div>
@@ -24,15 +20,13 @@
     </div>
   </section>
   <ProjectDetails
-    client="RePot ApS"
+    client="Billig Animation ApS"
     :services="[
       'Rebranding',
       'Logo',
       'Website',
-      'Storyscaping - UX',
-      'Animations',
-      'Animations',
-      'Social Media',
+      'Animation',
+      'Sociale Medier',
     ]"
     :toolsSrc="[
       {
@@ -62,11 +56,8 @@
         src: require('../assets/images/skills-icons/brandico_wordpress.png'),
       },
     ]"
-    purposeText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nunc nisl enim pellentesque sodales id. Donec convallis maecenas 
-    viverra venenatis tincidunt consectetur pulvinar.
-    Donec convallis maecenas viverra venenatis tincidunt
-     consectetur pulvinar dignissim."
+    purposeText="At forbedre Billig Animations nuværende website, med fokus på performance, SEO og user experience. 
+    Samt at inkoporer et design der reflektere professionalisme og fremhæver virksomhedens kreative grundessens."
   />
 </template>
 <script>
@@ -74,6 +65,7 @@ import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
 
 export default {
+     name: "BilligAnimation",
   components: {
     TextBox,
     ProjectDetails,

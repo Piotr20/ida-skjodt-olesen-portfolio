@@ -1,6 +1,6 @@
 <template>
   <div id="spacer"></div>
-  <TextBox text="regrow" />
+  <TextBox text="Country Wellness" />
   <section class="project-details">
     <div>
       <h2 class="">PROJECT BESKRIVELSE</h2>
@@ -74,6 +74,7 @@ import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
 
 export default {
+     name: "CountryWellness",
   components: {
     TextBox,
     ProjectDetails,

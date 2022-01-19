@@ -12,7 +12,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-1-anim" to="/">Se mere</router-link>
+          <router-link class="project-1-anim" to="/billiganimation">Se mere</router-link>
         </div>
       </div>
       <div class="project project-2">
@@ -26,7 +26,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-2-anim" to="/">Se mere</router-link>
+          <router-link class="project-2-anim" to="/smokepins">Se mere</router-link>
         </div>
       </div>
       <div class="project project-3">
@@ -56,7 +56,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-4-anim" to="/">Se mere</router-link>
+          <router-link class="project-4-anim" to="/countrywellness">Se mere</router-link>
         </div>
       </div>
       <div class="project project-5">
