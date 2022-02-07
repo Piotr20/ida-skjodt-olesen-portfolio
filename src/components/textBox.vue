@@ -25,8 +25,8 @@ section {
   section {
     width: 100%;
     h2 {
-      font-size: 158px;
-      padding: 100px 0;
+      font-size: 96px;
+      padding: 48px 0;
     }
   }
 }

@@ -2,29 +2,25 @@
   <section id="language">
     <h2 class="language-anim">SPROG</h2>
     <p class="language-anim">
-      Gennem min internationale uddannelse på Erhvervsakademiet Aarhus, har jeg udviklede mine sproglige egenskaber, 
-      samt udvidet min kulturelle forståelse.
+      Gennem min internationale uddannelse på Erhvervsakademiet Aarhus, har jeg udviklede mine sproglige egenskaber, samt udvidet min kulturelle
+      forståelse.
     </p>
     <div class="flags-container">
       <div class="language-anim">
-        <img
-          src="..\assets\images\emojione_flag-for-denmark.png"
-          alt="Danish flag"
-        />
-        <div><span>DANSK</span><br /><span>
-          <ul>
-            <li>Forståelse: Flydende/modersmål</li>
-            <li>Tale: Flydende/modersmål</li>
-            <li>Læse: Flydende/modersmål</li>
-            <li>Skrive: Flydende/modersmål</li>
-          </ul>
-</span></div>
+        <img src="..\assets\images\emojione_flag-for-denmark.png" alt="Danish flag" />
+        <div>
+          <span>DANSK</span><br /><span>
+            <ul>
+              <li>Forståelse: Flydende/modersmål</li>
+              <li>Tale: Flydende/modersmål</li>
+              <li>Læse: Flydende/modersmål</li>
+              <li>Skrive: Flydende/modersmål</li>
+            </ul>
+          </span>
+        </div>
       </div>
       <div class="language-anim">
-        <img
-          src="..\assets\images\emojione_flag-for-united-kingdom.png"
-          alt="British flag"
-        />
+        <img src="..\assets\images\emojione_flag-for-united-kingdom.png" alt="British flag" />
 
         <div>
           <span>ENGELSK</span> <br /><span>
@@ -33,8 +29,8 @@
               <li>Tale: Flydende/modersmål</li>
               <li>Læse: Flydende/modersmål</li>
               <li>Skrive: Flydende/modersmål</li>
-            </ul> 
-</span>
+            </ul>
+          </span>
         </div>
       </div>
     </div>
@@ -145,11 +141,14 @@ section {
     }
   }
   .flags-container {
-    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
     div {
       margin: 12px 0;
       font-size: 20px;
-      align-items: flex-start;
+      align-items: center;
       display: flex;
       justify-content: center;
       img {
@@ -161,7 +160,7 @@ section {
       div {
         display: flex;
         flex-direction: column;
-
+        align-items: flex-start;
         span:nth-of-type(2) {
           margin-top: 6px;
           font-size: 16px;

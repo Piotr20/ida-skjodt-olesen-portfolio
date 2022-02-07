@@ -48,6 +48,7 @@ section {
   }
   h1 {
     font-size: 192px;
+    line-height: 130%;
     border-bottom: 10px solid white;
   }
   h2 {

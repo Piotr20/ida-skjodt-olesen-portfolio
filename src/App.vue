@@ -14,9 +14,22 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: "Urbanist", sans-serif;
   text-align: center;
   color: #2c3e50;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a {
+    font-family: "DM Sans", sans-serif;
+  }
+  span,
+  p,
+  div {
+    font-family: "Lato", sans-serif;
+  }
 }
 
 #nav {
