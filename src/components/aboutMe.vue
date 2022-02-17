@@ -4,14 +4,18 @@
       <div class="text-wrapper">
         <h2 class="about-me-anim">IDA SKJØDT OLESEN</h2>
         <p class="about-me-anim">
-          Jeg er særlig passioneret omkring at skabe fortællinger og dele budskaber gennem billeder og video,
-          heriblandt særligt <strong>animation og motion graphics</strong>. Processen med at nørkler med små elementer, 
-          som forener sig og går ubemærket hen og bliver stykket sammen som en helhed, giver mig drive.
+          Jeg er særlig passioneret omkring at skabe fortællinger og dele
+          budskaber gennem billeder og video, heriblandt særligt
+          <strong>animation og motion graphics</strong>. Processen med at
+          nørkler med små elementer, som forener sig og går ubemærket hen og
+          bliver stykket sammen som en helhed, giver mig drive.
 
-        <br><br> For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min motivation for mit arbejde, 
-        da det at <strong>samarbejder</strong> kan bibringe ellers usete perspektiver på en given sag. 
-        Jeg holder af at <strong>sprede godt humør</strong> blandt de mennesker jeg omgås dagligt.
-
+          <br /><br />
+          For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min
+          motivation for mit arbejde, da det at <strong>samarbejder</strong> kan
+          bibringe ellers usete perspektiver på en given sag. Jeg holder af at
+          <strong>sprede godt humør</strong> blandt de mennesker jeg omgås
+          dagligt.
         </p>
         <div class="based-in-aarhus">
           <img

@@ -2,12 +2,16 @@
   <section id="language">
     <h2 class="language-anim">SPROG</h2>
     <p class="language-anim">
-      Gennem min internationale uddannelse på Erhvervsakademiet Aarhus, har jeg udviklede mine sproglige egenskaber, samt udvidet min kulturelle
+      Gennem min internationale uddannelse på Erhvervsakademiet Aarhus, har jeg
+      udviklede mine sproglige egenskaber, samt udvidet min kulturelle
       forståelse.
     </p>
     <div class="flags-container">
       <div class="language-anim">
-        <img src="..\assets\images\emojione_flag-for-denmark.png" alt="Danish flag" />
+        <img
+          src="..\assets\images\emojione_flag-for-denmark.png"
+          alt="Danish flag"
+        />
         <div>
           <span>DANSK</span><br /><span>
             <ul>
@@ -20,7 +24,10 @@
         </div>
       </div>
       <div class="language-anim">
-        <img src="..\assets\images\emojione_flag-for-united-kingdom.png" alt="British flag" />
+        <img
+          src="..\assets\images\emojione_flag-for-united-kingdom.png"
+          alt="British flag"
+        />
 
         <div>
           <span>ENGELSK</span> <br /><span>

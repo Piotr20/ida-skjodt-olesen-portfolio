@@ -3,40 +3,88 @@
     <h2 class="technical-skills-anim">TEKNISK ERFARING</h2>
     <div class="skills-container">
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/file-icons_adobe-photoshop.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/file-icons_adobe-photoshop.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/file-icons_adobe-illustrator.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/file-icons_adobe-illustrator.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/file-icons_adobe-premiere.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/file-icons_adobe-premiere.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/file-icons_adobe-xd.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/file-icons_adobe-xd.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/file-icons_adobe-aftereffects.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/file-icons_adobe-aftereffects.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/akar-icons_figma-fill.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/akar-icons_figma-fill.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/mdi_microsoft-office.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/mdi_microsoft-office.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/akar-icons_html-fill.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/akar-icons_html-fill.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/akar-icons_css-fill.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/akar-icons_css-fill.png"
+          alt=""
+        />
       </div>
       <div class="icon-box">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/brandico_wordpress.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/brandico_wordpress.png"
+          alt=""
+        />
       </div>
       <div class="icon-box vyond-logo">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/Vyond_Logo.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/Vyond_Logo.png"
+          alt=""
+        />
       </div>
       <div class="icon-box monday-logo">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/Monday-Logo.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/Monday-Logo.png"
+          alt=""
+        />
       </div>
     </div>
   </section>

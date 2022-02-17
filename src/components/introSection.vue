@@ -47,7 +47,7 @@ section {
     color: white;
   }
   h1 {
-    font-size: 192px;
+    font-size: 112px;
     line-height: 130%;
     border-bottom: 10px solid white;
   }

@@ -6,10 +6,14 @@
         <div class="content-contaienr">
           <h2 class="project-1-anim">Billig Animation</h2>
           <p class="project-1-anim">
-            Aflsuttende eksamensprojekt med Billig Animation som kunde. Et projekt der nytænkede den måde firmaet brandede sig på, 
-            og skabte en ny sjov visuel fremtoning. Projektet var meget alsidigt og mange forskellige værktøjer blev benyttet.
+            Aflsuttende eksamensprojekt med Billig Animation som kunde. Et
+            projekt der nytænkede den måde firmaet brandede sig på, og skabte en
+            ny sjov visuel fremtoning. Projektet var meget alsidigt og mange
+            forskellige værktøjer blev benyttet.
           </p>
-          <router-link class="project-1-anim" to="/billiganimation">Se mere</router-link>
+          <router-link class="project-1-anim" to="/billiganimation"
+            >Se mere</router-link
+          >
         </div>
       </div>
       <div class="project project-2">
@@ -23,7 +27,9 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-2-anim" to="/smokepins">Se mere</router-link>
+          <router-link class="project-2-anim" to="/smokepins"
+            >Se mere</router-link
+          >
         </div>
       </div>
       <div class="project project-3">
@@ -53,7 +59,9 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-4-anim" to="/countrywellness">Se mere</router-link>
+          <router-link class="project-4-anim" to="/countrywellness"
+            >Se mere</router-link
+          >
         </div>
       </div>
       <div class="project project-5">

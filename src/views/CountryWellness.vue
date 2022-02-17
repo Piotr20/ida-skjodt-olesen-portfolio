@@ -74,7 +74,7 @@ import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
 
 export default {
-     name: "CountryWellness",
+  name: "CountryWellness",
   components: {
     TextBox,
     ProjectDetails,

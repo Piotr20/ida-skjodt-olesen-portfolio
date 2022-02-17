@@ -5,17 +5,19 @@
     <div>
       <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        Smokepins ApS er en dansk startupvirksomhed opstartet af Ole Gravrok i 2017. 
-        Firmaets mission er at konservering af ferskvare skal være nemt og tilgængeligt hvor end man befinder sig, 
-        heraf deres produkt Smokepins. Røgpinde i højkvalitet, håndlavet i Danmark.
-        <br><br>
-        Firmaet er kendt for at have medvirket i Løvens Hule i 2019 og igen i 2020. 
-        Det var netop her vi opdagede firmaet og dens potentiale for vores eksamensprojekt.
-        Allerede fra første kontakt med Ole, vidste vi at netop dette projekt havde en helt særlig mulighed for at imponere.
-        <br><br>
-        Formålet med projektet var at skabe en solid brand identitet, som derved kunne danne en genkendelighed blandt 
-        eksisterende og nye kunder. Samt styrke brandet online på tværs af forskellige platforme.
-
+        Smokepins ApS er en dansk startupvirksomhed opstartet af Ole Gravrok i
+        2017. Firmaets mission er at konservering af ferskvare skal være nemt og
+        tilgængeligt hvor end man befinder sig, heraf deres produkt Smokepins.
+        Røgpinde i højkvalitet, håndlavet i Danmark.
+        <br /><br />
+        Firmaet er kendt for at have medvirket i Løvens Hule i 2019 og igen i
+        2020. Det var netop her vi opdagede firmaet og dens potentiale for vores
+        eksamensprojekt. Allerede fra første kontakt med Ole, vidste vi at netop
+        dette projekt havde en helt særlig mulighed for at imponere.
+        <br /><br />
+        Formålet med projektet var at skabe en solid brand identitet, som derved
+        kunne danne en genkendelighed blandt eksisterende og nye kunder. Samt
+        styrke brandet online på tværs af forskellige platforme.
       </p>
     </div>
     <div>
@@ -63,7 +65,7 @@ import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
 
 export default {
-     name: "Smokepins",
+  name: "Smokepins",
   components: {
     TextBox,
     ProjectDetails,

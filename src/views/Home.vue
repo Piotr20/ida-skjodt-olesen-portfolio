@@ -3,6 +3,7 @@
   <TextBox text="portfolio" />
   <Projects />
   <TextBox text="Om mig" />
+  <TwoRowsLayout headingText="Hey" />
   <About />
   <AboutMe />
   <TechSkills />
@@ -30,6 +31,7 @@ import Education from "../components/education.vue";
 import FreelanceProjects from "../components/freelanceProjects.vue";
 import CvDownload from "../components/cvDownloadSection.vue";
 import Contact from "../components/contact.vue";
+import TwoRowsLayout from "../components/project_pages_components/PP_2_rows.vue";
 
 export default {
   name: "Home",
@@ -50,6 +52,7 @@ export default {
     FreelanceProjects,
     CvDownload,
     Contact,
+    TwoRowsLayout,
   },
 };
 </script>

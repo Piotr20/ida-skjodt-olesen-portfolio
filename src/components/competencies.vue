@@ -5,11 +5,10 @@
       <div class="quote-container competencies-anim">
         <span>"</span>
         <h3>
-         En effektiv arbejdsdag for mit vedkommende, består af at kunne veksle 
-         mellem at indgå i grupper og kunne dele erfaringer og ekspertise med hinanden, 
-         samt at arbejde individuelt og koncentreret omkring en opgave. 
-         Nye udfordringer tager jeg imod med nysgerrighed og åbenhed.
-
+          En effektiv arbejdsdag for mit vedkommende, består af at kunne veksle
+          mellem at indgå i grupper og kunne dele erfaringer og ekspertise med
+          hinanden, samt at arbejde individuelt og koncentreret omkring en
+          opgave. Nye udfordringer tager jeg imod med nysgerrighed og åbenhed.
         </h3>
         <span>"</span>
       </div>
@@ -21,7 +20,9 @@
         <li class="competencies-anim">Detaljeorienteret</li>
         <li class="competencies-anim">Service minded</li>
         <li class="competencies-anim">Kendskab til kundehåndtering</li>
-        <li class="competencies-anim">Gode kommunikations egenskaber internationalt</li>
+        <li class="competencies-anim">
+          Gode kommunikations egenskaber internationalt
+        </li>
       </ul>
     </div>
   </section>

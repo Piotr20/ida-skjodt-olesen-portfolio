@@ -5,14 +5,19 @@
     <div>
       <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        Billig Animation ApS er et datterselskab til Viral Film ApS, som blev oprettet i 2017 og er placeret i Aarhus.
-        Billig Animation ApS tilbyder professionelle animationsfilm til lav markedspris. Formålet for virksomheden er
-        at skabe kunde engagement på en sjov, unik og anderledes måde, netop gennem animationsfilm.
-        <br><br>
-        I samarbejdet med Billig Animation, benyttede vi virksomheden som case til vores afsluttende eksamensprojekt.
-        <br><br>
-        Formålet var at forbedre Billig Animations nuværende website, med fokus på performance, SEO og user experience. 
-        Samt at inkoporer et design der reflektere professionalisme og fremhæver virksomhedens kreative grundessens.
+        Billig Animation ApS er et datterselskab til Viral Film ApS, som blev
+        oprettet i 2017 og er placeret i Aarhus. Billig Animation ApS tilbyder
+        professionelle animationsfilm til lav markedspris. Formålet for
+        virksomheden er at skabe kunde engagement på en sjov, unik og anderledes
+        måde, netop gennem animationsfilm.
+        <br /><br />
+        I samarbejdet med Billig Animation, benyttede vi virksomheden som case
+        til vores afsluttende eksamensprojekt.
+        <br /><br />
+        Formålet var at forbedre Billig Animations nuværende website, med fokus
+        på performance, SEO og user experience. Samt at inkoporer et design der
+        reflektere professionalisme og fremhæver virksomhedens kreative
+        grundessens.
       </p>
     </div>
     <div>
@@ -24,13 +29,7 @@
   </section>
   <ProjectDetails
     client="Billig Animation ApS"
-    :services="[
-      'Rebranding',
-      'Logo',
-      'Website',
-      'Animation',
-      'Sociale Medier',
-    ]"
+    :services="['Rebranding', 'Logo', 'Website', 'Animation', 'Sociale Medier']"
     :toolsSrc="[
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),
@@ -67,7 +66,7 @@ import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
 
 export default {
-     name: "BilligAnimation",
+  name: "BilligAnimation",
   components: {
     TextBox,
     ProjectDetails,
