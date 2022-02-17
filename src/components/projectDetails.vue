@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="client-details">
-      <h2>CLIENT</h2>
+      <h2>Kunde</h2>
       <h3>{{ client }}</h3>
     </div>
     <div class="services-details">
@@ -15,7 +15,7 @@
       </ul>
     </div>
     <div class="tools-details">
-      <h2>USED TOOLS</h2>
+      <h2>Værktøjer</h2>
       <div class="grid-container">
         <template v-for="(image, index) in toolsSrc" :key="index">
           <img :src="image.src" alt="tool icon" />

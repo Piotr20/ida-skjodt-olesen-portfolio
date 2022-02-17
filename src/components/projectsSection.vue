@@ -6,11 +6,8 @@
         <div class="content-contaienr">
           <h2 class="project-1-anim">Billig Animation</h2>
           <p class="project-1-anim">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id. Donec convallis maecenas viverra
-            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
-            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-            lacinia eleifend.
+            Aflsuttende eksamensprojekt med Billig Animation som kunde. Et projekt der nytænkede den måde firmaet brandede sig på, 
+            og skabte en ny sjov visuel fremtoning. Projektet var meget alsidigt og mange forskellige værktøjer blev benyttet.
           </p>
           <router-link class="project-1-anim" to="/billiganimation">Se mere</router-link>
         </div>

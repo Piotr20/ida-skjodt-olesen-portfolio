@@ -3,19 +3,22 @@
   <TextBox text="Billig Animation" />
   <section class="project-details">
     <div>
-      <h2 class="">PROJECT BESKRIVELSE</h2>
+      <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        Billig Animation ApS er en datterselskab til Viral Film ApS, som blev oprettet i 2017 og er placeret i Aarhus.
-        Billig Animation ApS tilbyder professionelle animationsfilm til lav markedspris. Formålet for virksomheden er,
+        Billig Animation ApS er et datterselskab til Viral Film ApS, som blev oprettet i 2017 og er placeret i Aarhus.
+        Billig Animation ApS tilbyder professionelle animationsfilm til lav markedspris. Formålet for virksomheden er
         at skabe kunde engagement på en sjov, unik og anderledes måde, netop gennem animationsfilm.
         <br><br>
         I samarbejdet med Billig Animation, benyttede vi virksomheden som case til vores afsluttende eksamensprojekt.
+        <br><br>
+        Formålet var at forbedre Billig Animations nuværende website, med fokus på performance, SEO og user experience. 
+        Samt at inkoporer et design der reflektere professionalisme og fremhæver virksomhedens kreative grundessens.
       </p>
     </div>
     <div>
       <img
-        src="../assets/images/regrow-images/hero-image-regrow.png"
-        alt="Regrow hero image"
+        src="../assets/images/billig_animation/business_card_mockup_billiganimation.png"
+        alt="business_card_mockup_billiganimation"
       />
     </div>
   </section>
@@ -56,8 +59,7 @@
         src: require('../assets/images/skills-icons/brandico_wordpress.png'),
       },
     ]"
-    purposeText="At forbedre Billig Animations nuværende website, med fokus på performance, SEO og user experience. 
-    Samt at inkoporer et design der reflektere professionalisme og fremhæver virksomhedens kreative grundessens."
+    purposeText=""
   />
 </template>
 <script>
