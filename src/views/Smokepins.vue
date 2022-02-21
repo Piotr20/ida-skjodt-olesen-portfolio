@@ -22,7 +22,7 @@
     </div>
     <div>
       <img
-        src="../assets/images/regrow-images/hero-image-regrow.png"
+        src="../assets/images/smokepins/Business_Card_Mockup_Smokepins.png"
         alt="Regrow hero image"
       />
     </div>

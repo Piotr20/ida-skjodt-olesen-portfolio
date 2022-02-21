@@ -176,7 +176,12 @@ section {
     opacity: 0;
     transition: opacity 0.3s ease;
     &:nth-of-type(1) {
-      background-image: url("../assets/images/holding_camera_filter.png");
+      background-image: url("../assets/images/billig_animation/business_card_mockup_billiganimation.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &:nth-of-type(2) {
+      background-image: url("../assets/images/smokepins/Business_Card_Mockup_Smokepins.png");
       background-repeat: no-repeat;
       background-size: cover;
     }
