@@ -15,10 +15,10 @@
         <div>
           <span>DANSK</span><br /><span>
             <ul>
-              <li>Forståelse: Flydende/modersmål</li>
-              <li>Tale: Flydende/modersmål</li>
-              <li>Læse: Flydende/modersmål</li>
-              <li>Skrive: Flydende/modersmål</li>
+              <li>Forståelse: Modersmål</li>
+              <li>Tale: Modersmål</li>
+              <li>Læse: Modersmål</li>
+              <li>Skrive: Modersmål</li>
             </ul>
           </span>
         </div>
@@ -32,10 +32,10 @@
         <div>
           <span>ENGELSK</span> <br /><span>
             <ul>
-              <li>Forståelse: Flydende/modersmål</li>
-              <li>Tale: Flydende/modersmål</li>
-              <li>Læse: Flydende/modersmål</li>
-              <li>Skrive: Flydende/modersmål</li>
+              <li>Forståelse: Flydende</li>
+              <li>Tale: Flydende</li>
+              <li>Læse: Flydende</li>
+              <li>Skrive: Flydende</li>
             </ul>
           </span>
         </div>
