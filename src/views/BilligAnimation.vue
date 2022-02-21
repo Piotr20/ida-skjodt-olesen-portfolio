@@ -58,18 +58,22 @@
         src: require('../assets/images/skills-icons/brandico_wordpress.png'),
       },
     ]"
-    purposeText=""
   />
+
+  <TwoRowsLayout_ba headingText="Design" />
+
 </template>
 <script>
 import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
+import TwoRowsLayout_ba from "../components/project_pages_components/PP_2_rows_ba.vue";
 
 export default {
   name: "BilligAnimation",
   components: {
     TextBox,
     ProjectDetails,
+    TwoRowsLayout_ba,
   },
   mounted() {
     window.scrollTo(0, 0);

@@ -62,22 +62,22 @@
         src: require('../assets/images/skills-icons/brandico_wordpress.png'),
       },
     ]"
-    purposeText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nunc nisl enim pellentesque sodales id. Donec convallis maecenas 
-    viverra venenatis tincidunt consectetur pulvinar.
-    Donec convallis maecenas viverra venenatis tincidunt
-     consectetur pulvinar dignissim."
   />
+
+  <TwoRowsLayout_cw headingText="Design" />
+
 </template>
 <script>
 import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
+import TwoRowsLayout_cw from "../components/project_pages_components/PP_2_rows_cw.vue";
 
 export default {
   name: "CountryWellness",
   components: {
     TextBox,
     ProjectDetails,
+    TwoRowsLayout_cw,
   },
   mounted() {
     window.scrollTo(0, 0);

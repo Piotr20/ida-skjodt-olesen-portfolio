@@ -22,10 +22,7 @@
         </template>
       </div>
     </div>
-    <div class="purpose">
-      <h2>Purpose</h2>
-      <p>{{ purposeText }}</p>
-    </div>
+  
   </section>
 </template>
 
