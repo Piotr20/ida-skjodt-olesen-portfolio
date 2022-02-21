@@ -53,22 +53,25 @@
         src: require('../assets/images/skills-icons/akar-icons_css-fill.png'),
       },
     ]"
-    purposeText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Nunc nisl enim pellentesque sodales id. Donec convallis maecenas 
-    viverra venenatis tincidunt consectetur pulvinar.
-    Donec convallis maecenas viverra venenatis tincidunt
-     consectetur pulvinar dignissim."
   />
+
+  <TwoRowsLayout_smokepins headingText="Design" />
+    
 </template>
+
+
+
 <script>
 import TextBox from "../components/textBox.vue";
 import ProjectDetails from "../components/projectDetails.vue";
+import TwoRowsLayout_smokepins from "../components/project_pages_components/PP_2_rows_smokepins.vue";
 
 export default {
   name: "Smokepins",
   components: {
     TextBox,
     ProjectDetails,
+    TwoRowsLayout_smokepins
   },
   mounted() {
     window.scrollTo(0, 0);
@@ -171,3 +174,5 @@ section.project-details {
   }
 }
 </style>
+
+
