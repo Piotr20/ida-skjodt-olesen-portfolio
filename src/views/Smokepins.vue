@@ -9,21 +9,24 @@
         2017. Firmaets mission er at konservering af ferskvare skal være nemt og
         tilgængeligt hvor end man befinder sig, heraf deres produkt Smokepins.
         Røgpinde i højkvalitet, håndlavet i Danmark.
-        <br /><br />
+        <br><br>
         Firmaet er kendt for at have medvirket i Løvens Hule i 2019 og igen i
         2020. Det var netop her vi opdagede firmaet og dens potentiale for vores
         eksamensprojekt. Allerede fra første kontakt med Ole, vidste vi at netop
         dette projekt havde en helt særlig mulighed for at imponere.
-        <br /><br />
+        <br><br>
         Formålet med projektet var at skabe en solid brand identitet, som derved
         kunne danne en genkendelighed blandt eksisterende og nye kunder. Samt
         styrke brandet online på tværs af forskellige platforme.
+        <br><br>
+        Efter eksamensprojektets afslutning, samarbejdede jeg på freelance basis fortsat med smokepins.
+        Her viderearbejdede jeg blandt andet på nogle grafikker.
       </p>
     </div>
     <div>
       <img
         src="../assets/images/smokepins/Business_Card_Mockup_Smokepins.png"
-        alt="Regrow hero image"
+        alt="Smokepins business card mockup"
       />
     </div>
   </section>

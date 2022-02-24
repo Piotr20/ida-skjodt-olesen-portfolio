@@ -21,11 +21,10 @@
         <div class="content-contaienr">
           <h2 class="project-2-anim">Smokepins</h2>
           <p class="project-2-anim">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id. Donec convallis maecenas viverra
-            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
-            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-            lacinia eleifend.
+             Gruppe eksamensprojekt med Smokepins som kunde. 
+             Projektet havde rigtig stor succes, i den forstand at kunden efterfulgt har implementeret 
+             store dele af websitet vi har udarbejdet, samt grafikker og markedsførings ideer.
+             En kæmpe fornøjelse at samarbejde med en kunde og se reelt brugbare resultater.
           </p>
           <router-link class="project-2-anim" to="/smokepins"
             >Se mere</router-link
@@ -35,15 +34,11 @@
       <div class="project project-3">
         <div class="background-container"></div>
         <div class="content-contaienr">
-          <h2 class="project-3-anim">Regrow</h2>
+          <h2 class="project-3-anim">Showreel</h2>
           <p class="project-3-anim">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id. Donec convallis maecenas viverra
-            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
-            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-            lacinia eleifend.
+            IDEA: could this be a showreel, at some point?
           </p>
-          <router-link @click="call()" class="project-3-anim" to="/regrow"
+          <router-link @click="call()" class="project-3-anim" to="/"
             >Se mere</router-link
           >
         </div>
@@ -67,7 +62,7 @@
       <div class="project project-5">
         <div class="background-container"></div>
         <div class="content-contaienr">
-          <h2 class="project-5-anim">Diverse projekter</h2>
+          <h2 class="project-5-anim">ReGrow</h2>
           <p class="project-5-anim">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
             enim pellentesque sodales id. Donec convallis maecenas viverra
@@ -75,7 +70,7 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-5-anim" to="/">Se mere</router-link>
+          <router-link class="project-5-anim" to="/Regrow">Se mere</router-link>
         </div>
       </div>
     </div>

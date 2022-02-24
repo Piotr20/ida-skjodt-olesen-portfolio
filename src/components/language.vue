@@ -2,10 +2,14 @@
   <section id="language">
     <h2 class="language-anim">SPROG</h2>
     <p class="language-anim">
-      Gennem min internationale uddannelse på Erhvervsakademiet Aarhus, har jeg
+      Gennem min internationale uddannelse, som Multimediedesigner på Erhvervsakademiet Aarhus, har jeg
       udviklede mine sproglige egenskaber, samt udvidet min kulturelle
       forståelse.
+      <br> <br>
+      Erhvervsakademiet Aarhus har interviewet mig til en artikel netop omkring det at studere på engelsk.
     </p>
+<a class="language-anim" href="https://www.eaaa.dk/videregaende-uddannelser/erhvervsakademiuddannelse/multimedia-design/ida-har-bragt-verden-hjem-til-sig/"
+      target="_blank">Læs artikel</a>
     <div class="flags-container">
       <div class="language-anim">
         <img
@@ -128,6 +132,24 @@ section {
     }
   }
 }
+ a {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #e54575;
+    font-size: 20px;
+    padding: 12px 40px;
+    display: inline-block;
+    margin-top: 24px;
+    transition: all 0.3s ease;
+    border: 3px solid #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    &:hover {
+      background-color: #e54575;
+      color: #fff;
+    }
+  }
 
 @media only screen and (min-width: 1024px) {
   section {

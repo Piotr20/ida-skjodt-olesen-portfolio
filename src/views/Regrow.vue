@@ -18,8 +18,8 @@
     </div>
     <div>
       <img
-        src="../assets/images/regrow-images/hero-image-regrow.png"
-        alt="Regrow hero image"
+        src="../assets/images/regrow/regrow_business_card_mockup2.png"
+        alt="Regrow business card mockup"
       />
     </div>
   </section>
