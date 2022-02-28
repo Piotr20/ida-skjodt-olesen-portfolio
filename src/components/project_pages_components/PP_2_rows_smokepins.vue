@@ -2,19 +2,25 @@
   <section id="2-rows-grid">
     <h2 class="about-me-anim">{{ headingText }}</h2>
     <div class="grid-container">
-      <div class="cell-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-        eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat quasi
-        maxime! Ea.
+     <div class="cell-1">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+          eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat quasi
+          maxime! Ea.
+          <br><br>
+          We created a unique visual identity that carried through all. aspects of the business distingushes 
+          Smokepins ApS from other competitiors making their brand memorable. This project was not. 
+          as much for a coding as it was rather for design and marketing. 
+          Even though it was not very code-wise project we included. several immersive effects like e. g. lines drawing on scroll.
+        </p>
       </div>
       <div class="cell-2">
-        <img src="../../assets/images/logo.png" alt="">
+        <img src="../../assets/images/smokepins/smokepins-closedbox.png" alt="Smokepins box closed">
       </div>
       <div class="cell-3">
-        3 rem ipsum dolor sit amet consec
+        <img src="../../assets/images/smokepins/smokepins-styletile.png" alt="Smokepins styletile">
       </div>
       <div class="cell-4">
-        <img src="../../assets/images/logo.png" alt="">
       </div>
     </div>
   </section>
@@ -40,7 +46,12 @@ h2 {
   font-size: 32px;
   padding-bottom: 32px;
   position: relative;
-
+p {
+      font-size: 40px;
+      text-align: left;
+      color: #95867d;
+    }
+    //why is this not working
   &::after {
     content: "";
     position: absolute;
@@ -72,6 +83,11 @@ h2 {
     } //the type is reffering to which grid box
   }
 }
+img {
+  max-width: 100%;
+}
+//tempoary thing i did to style image
+
 @media only screen and (min-width: 1024px) {
   section {
     padding: 64px;

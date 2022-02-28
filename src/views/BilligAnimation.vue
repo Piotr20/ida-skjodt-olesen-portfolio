@@ -29,7 +29,7 @@
   </section>
   <ProjectDetails
     client="Billig Animation ApS"
-    :services="['Rebranding', 'Logo', 'Website', 'Animation', 'Sociale Medier']"
+    :services="['Rebranding', 'Logo', 'UX & UI design', 'Animation', 'Sociale Medier']"
     :toolsSrc="[
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),

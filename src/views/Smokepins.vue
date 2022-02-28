@@ -22,6 +22,7 @@
         Efter eksamensprojektets afslutning, samarbejdede jeg på freelance basis fortsat med smokepins.
         Her viderearbejdede jeg blandt andet på nogle grafikker.
       </p>
+      
     </div>
     <div>
       <img
@@ -35,7 +36,7 @@
     :services="[
       'Rebranding',
       'Logo',
-      'Website',
+      'UX & UI design',
       'Markedsføring',
       'Sociale medier',
     ]"
@@ -58,7 +59,7 @@
     ]"
   />
 
-  <TwoRowsLayout_smokepins headingText="Design" />
+  <TwoRowsLayout_smokepins headingText="Design og visuel identitet" />
     
 </template>
 
