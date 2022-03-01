@@ -19,8 +19,8 @@
         kunne danne en genkendelighed blandt eksisterende og nye kunder. Samt
         styrke brandet online på tværs af forskellige platforme.
         <br><br>
-        Efter eksamensprojektets afslutning, samarbejdede jeg på freelance basis fortsat med smokepins.
-        Her viderearbejdede jeg blandt andet på nogle grafikker.
+        Efter eksamensprojektets afslutning, samarbejdede jeg fortsat på freelance basis med Smokepins.
+        Her viderearbejdede jeg blandt andet på nogle ideer og grafikker fra selve eksamensprojektet.
       </p>
       
     </div>
@@ -59,7 +59,7 @@
     ]"
   />
 
-  <TwoRowsLayout_smokepins headingText="Design og visuel identitet" />
+  <TwoRowsLayout_smokepins headingText="x" />
     
 </template>
 

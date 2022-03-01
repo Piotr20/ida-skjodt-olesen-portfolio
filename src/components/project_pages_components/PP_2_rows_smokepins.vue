@@ -1,6 +1,6 @@
 <template>
   <section id="2-rows-grid">
-    <h2 class="about-me-anim">{{ headingText }}</h2>
+    <h2 class="about-me-anim">Design og visuel identitet</h2>
     <div class="grid-container">
      <div class="cell-1">
         <p>
@@ -15,12 +15,29 @@
         </p>
       </div>
       <div class="cell-2">
-        <img src="../../assets/images/smokepins/smokepins-closedbox.png" alt="Smokepins box closed">
+        <img src="../../assets/images/smokepins/smokepins-styletile.png" alt="Smokepins styletile">
+        //this pic should be aligned to the top. why is there so much space/padding?
       </div>
       <div class="cell-3">
-        <img src="../../assets/images/smokepins/smokepins-styletile.png" alt="Smokepins styletile">
+        <img src="../../assets/images/smokepins/smokepins-closedbox.png" alt="Smokepins box closed">
       </div>
       <div class="cell-4">
+      </div>
+      <div class="cell-5">
+        <br><br> //i also just used breaks here....
+        <h2 class="about-me-anim"> Logo design</h2> 
+        <br>
+      </div>
+      <div class="cell-6">
+      </div>
+      <div class="cell-7">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis recusandae distinctio vel eos, nemo 
+        eum perferendis temporibus minima quam odit, rerum obcaecati est similique qui? Eveniet magni eum odit sapiente.
+        </p>
+      </div>
+      <div class="cell-8">
+        <img src="../../assets/images/smokepins/smokepins-logo-all.png" alt="Smokepins logo">
       </div>
     </div>
   </section>
@@ -47,11 +64,12 @@ h2 {
   padding-bottom: 32px;
   position: relative;
 p {
-      font-size: 40px;
+      font-size: 20px;
+      font-family: "Lato", sans-serif;
       text-align: left;
       color: #95867d;
     }
-    //why is this not working
+    //why is this not working?!
   &::after {
     content: "";
     position: absolute;
@@ -85,8 +103,7 @@ p {
 }
 img {
   max-width: 100%;
-}
-//tempoary thing i did to style image
+} //tempoary thing i did to style image
 
 @media only screen and (min-width: 1024px) {
   section {
