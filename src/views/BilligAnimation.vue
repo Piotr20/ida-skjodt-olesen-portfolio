@@ -29,7 +29,13 @@
   </section>
   <ProjectDetails
     client="Billig Animation ApS"
-    :services="['Rebranding', 'Logo', 'UX & UI design', 'Animation', 'Sociale Medier']"
+    :services="[
+      'Rebranding',
+      'Logo',
+      'UX & UI design',
+      'Animation',
+      'Sociale Medier',
+    ]"
     :toolsSrc="[
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),
@@ -61,7 +67,6 @@
   />
 
   <TwoRowsLayout_ba headingText="Design" />
-
 </template>
 <script>
 import TextBox from "../components/textBox.vue";

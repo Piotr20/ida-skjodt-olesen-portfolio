@@ -8,13 +8,11 @@
         maxime! Ea.
       </div>
       <div class="cell-2">
-        <img src="../../assets/images/logo.png" alt="">
+        <img src="../../assets/images/logo.png" alt="" />
       </div>
-      <div class="cell-3">
-        3 rem ipsum dolor sit amet consec
-      </div>
+      <div class="cell-3">3 rem ipsum dolor sit amet consec</div>
       <div class="cell-4">
-        <img src="../../assets/images/logo.png" alt="">
+        <img src="../../assets/images/logo.png" alt="" />
       </div>
     </div>
   </section>
@@ -60,12 +58,12 @@ h2 {
   grid-gap: 24px;
   div {
     text-align: left;
-    &:nth-of-type(2){
+    &:nth-of-type(2) {
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    &:nth-of-type(4){
+    &:nth-of-type(4) {
       display: flex;
       justify-content: center;
       align-items: center;

@@ -21,10 +21,11 @@
         <div class="content-contaienr">
           <h2 class="project-2-anim">Smokepins</h2>
           <p class="project-2-anim">
-             Gruppe eksamensprojekt med Smokepins som kunde. 
-             Projektet havde rigtig stor succes, i den forstand at kunden efterfulgt har implementeret 
-             store dele af websitet vi har udarbejdet, samt grafikker og markedsførings ideer.
-             En kæmpe fornøjelse at samarbejde med en kunde og se reelt brugbare resultater.
+            Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
+            rigtig stor succes, i den forstand at kunden efterfulgt har
+            implementeret store dele af websitet vi har udarbejdet, samt
+            grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
+            med en kunde og se reelt brugbare resultater.
           </p>
           <router-link class="project-2-anim" to="/smokepins"
             >Se mere</router-link

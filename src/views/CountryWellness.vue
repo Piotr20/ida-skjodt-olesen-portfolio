@@ -65,7 +65,6 @@
   />
 
   <TwoRowsLayout_cw headingText="Design" />
-
 </template>
 <script>
 import TextBox from "../components/textBox.vue";
