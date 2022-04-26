@@ -6,15 +6,11 @@
         <div class="content-contaienr">
           <h2 class="project-4-anim">Country Wellness</h2>
           <p class="project-4-anim">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id. Donec convallis maecenas viverra
-            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
-            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-            lacinia eleifend.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim pellentesque sodales id.
+            Donec convallis maecenas viverra venenatis tincidunt consectetur pulvinar dignissim. Elit lacus
+            donec at auctor commodo, urna auctor quam. Dolor consequat, eget elementum lacinia eleifend.
           </p>
-          <router-link class="project-4-anim" to="/countrywellness"
-            >Se mere</router-link
-          >
+          <router-link class="project-4-anim" to="/countrywellness">Se mere</router-link>
         </div>
       </div>
       <div class="project project-2">
@@ -22,14 +18,12 @@
         <div class="content-contaienr">
           <h2 class="project-2-anim">Smokepins</h2>
           <p class="project-2-anim">
-            Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
-            rigtig stor succes, i den forstand at kunden efterfulgt har
-            implementeret store dele af websitet vi har udarbejdet, samt
-            grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
-            med en kunde og se reelt brugbare resultater.
+            Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde rigtig stor succes, i den forstand
+            at kunden efterfulgt har implementeret store dele af websitet vi har udarbejdet, samt grafikker og
+            markedsførings ideer. En kæmpe fornøjelse at samarbejde med en kunde og se reelt brugbare
+            resultater.
           </p>
-          <router-link class="project-2-anim" to="/smokepins"
-            >Se mere</router-link>
+          <router-link class="project-2-anim" to="/smokepins">Se mere</router-link>
         </div>
       </div>
       <div class="project project-3">
@@ -37,20 +31,17 @@
         <div class="content-contaienr">
           <h2 class="project-3-anim">ReGrow</h2>
           <p class="project-3-anim">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
-            enim pellentesque sodales id. Donec convallis maecenas viverra
-            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
-            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-            lacinia eleifend.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim pellentesque sodales id.
+            Donec convallis maecenas viverra venenatis tincidunt consectetur pulvinar dignissim. Elit lacus
+            donec at auctor commodo, urna auctor quam. Dolor consequat, eget elementum lacinia eleifend.
           </p>
-          <router-link @click="call()" class="project-3-anim" to="/regrow"
-            >Se mere</router-link>
+          <router-link @click="call()" class="project-3-anim" to="/regrow">Se mere</router-link>
         </div>
       </div>
 
       <!-- OTHER PROJECTS -->
-      
-<!--  <div class="project project-1">
+
+      <!--  <div class="project project-1">
         <div class="background-container"></div>
         <div class="content-contaienr">
           <h2 class="project-1-anim">Billig Animation</h2>
@@ -79,7 +70,7 @@
           <router-link class="project-5-anim" to="/">Se mere</router-link>
         </div>
       </div> -->
-    </div> 
+    </div>
   </section>
 </template>
 
@@ -176,16 +167,23 @@ section {
     height: 100%;
     opacity: 0;
     transition: opacity 0.3s ease;
-    &:nth-of-type(1) {
-      background-image: url("../assets/images/billig_animation/business_card_mockup_billiganimation.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    &:nth-of-type(2) {
-      background-image: url("../assets/images/smokepins/Business_Card_Mockup_Smokepins.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+    background-position: center;
+  }
+  &:nth-of-type(1) .background-container {
+    background-image: url("../assets/images/billig_animation/business_card_mockup_billiganimation.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &:nth-of-type(2) .background-container {
+    background-image: url("../assets/images/smokepins/Business_Card_Mockup_Smokepins.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &:nth-of-type(3) .background-container {
+    background-image: url("../assets/images/regrow/regrow_business_card_mockup2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
   &:hover .background-container {
     opacity: 0.4;
@@ -199,7 +197,7 @@ section {
     z-index: 2;
     h2 {
       font-size: 32px;
-      padding-bottom: 32px;
+      padding-bottom: 12px;
       position: relative;
       text-transform: uppercase;
       text-align: left;
@@ -273,7 +271,7 @@ section {
       display: flex;
       flex-direction: column;
       h2 {
-        font-size: 48px;
+        font-size: 32px;
         text-align: left;
 
         &::after {
@@ -281,19 +279,19 @@ section {
           transform: translateX(0);
           width: 15%;
         }
-        padding-bottom: 48px;
+        padding-bottom: 14px;
       }
       p {
-        padding-top: 48px;
-        font-size: 20px;
+        padding-top: 14px;
+        font-size: 18px;
         width: 85%;
       }
       a {
         align-self: flex-start;
-        margin-top: 48px;
-        padding: 12px 48px 12px 16px;
+        margin-top: 24px;
+        padding: 6px 24px 6px 8px;
         border-width: 3px;
-        font-size: 24px;
+        font-size: 16px;
       }
     }
   }
@@ -317,7 +315,7 @@ section {
       a {
         margin-left: auto;
         margin-right: auto;
-        padding: 12px 32px 12px 32px;
+        padding: 6px 16px;
       }
     }
   }
