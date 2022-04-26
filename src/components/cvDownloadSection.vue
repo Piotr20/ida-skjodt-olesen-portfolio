@@ -1,9 +1,7 @@
 <template>
   <section id="cv">
     <h2 class="cv-anim">Vil du downloade mit Cv?</h2>
-    <a class="cv-anim" href="../assets/CV_Piotr_Pospiech.pdf" download
-      >Download</a
-    >
+    <a class="cv-anim" href="../assets/CV_Piotr_Pospiech.pdf" download>Download</a>
   </section>
 </template>
 
@@ -64,11 +62,11 @@ section {
     margin: 36px 0;
     padding: 48px;
     h2 {
-      font-size: 52px;
+      font-size: 32px;
     }
     a {
-      font-size: 26px;
-      padding: 16px 56px;
+      font-size: 20px;
+      padding: 12px 30px;
       margin-top: 40px;
       align-self: flex-start;
     }

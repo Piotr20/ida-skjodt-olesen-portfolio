@@ -21,7 +21,7 @@ export default {
     color: #95867d;
     text-transform: uppercase;
     font-size: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 14px;
     position: relative;
 
     &::after {
@@ -41,7 +41,7 @@ export default {
     padding: 64px;
     h2 {
       text-align: left;
-      font-size: 48px;
+      font-size: 32px;
       &::after {
         transform: translateX(0);
         left: 0;

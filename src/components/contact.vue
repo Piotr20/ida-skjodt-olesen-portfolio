@@ -2,9 +2,7 @@
   <section id="contact">
     <h2 class="contact-anim">Kontakt mig</h2>
     <div class="links-container">
-      <a class="contact-anim" href="mailto:Ida.skjodt@gmail.com"
-        >Ida.skjodt@gmail.com</a
-      >
+      <a class="contact-anim" href="mailto:Ida.skjodt@gmail.com">Ida.skjodt@gmail.com</a>
       <a class="contact-anim" href="tel:+4540238003">+45 40 23 80 03</a>
     </div>
   </section>
@@ -71,19 +69,18 @@ section {
     padding: 108px 64px;
 
     h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
+      font-size: 32px;
+      padding-bottom: 14px;
       &::after {
         width: 10%;
       }
     }
   }
   .links-container {
-    margin-top: 108px;
+    margin-top: 24px;
 
     a {
-      font-size: 28px;
+      font-size: 18px;
       padding: 16px 0;
     }
   }

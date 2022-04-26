@@ -8,26 +8,23 @@
         <h2>Country Wellness ApS</h2>
         <h3>September 2020 – Nuværende</h3>
         <span
-          >Arbejdet med skabelse af brand identitet, herunder logo, grafiske
-          designs and sociale medier.</span
+          >Arbejdet med skabelse af brand identitet, herunder logo, grafiske designs and sociale medier.</span
         >
       </div>
       <div class="freelance-box freelance-anim">
         <h2>Smokepins ApS</h2>
         <h3>August 2020 – September 2020</h3>
         <span
-          >Gruppeprojekt og freelance. Arbejdet med visuel brand identitet,
-          herunder udarbejdelse af logo, grafiske designs og sociale
-          medier.</span
+          >Gruppeprojekt og freelance. Arbejdet med visuel brand identitet, herunder udarbejdelse af logo,
+          grafiske designs og sociale medier.</span
         >
       </div>
       <div class="freelance-box freelance-anim">
         <h2>Naturrum Sønder Omme</h2>
         <h3>2016 – 2019</h3>
         <span
-          >Gruppeprojekt og frivillig freelance. Arbejdet med grafiske og
-          digitale elementer, herunder logo, video, fotografering, sociale
-          medier.</span
+          >Gruppeprojekt og frivillig freelance. Arbejdet med grafiske og digitale elementer, herunder logo,
+          video, fotografering, sociale medier.</span
         >
       </div>
     </div>
@@ -100,28 +97,32 @@ section {
   section {
     margin: 36px 0;
   }
+  .freelance-box {
+    padding: 48px;
+  }
   .grid-conainer {
     grid-template-columns: 1fr 2fr;
     grid-auto-rows: minmax(min-content, max-content);
     grid-gap: 36px;
     h2 {
-      font-size: 40px;
+      font-size: 32px;
     }
     h3 {
-      font-size: 32px;
-      padding-top: 8px;
-      margin-bottom: 24px;
+      font-size: 22px;
+      padding-top: 2px;
+      margin-bottom: 8px;
     }
     span {
-      font-size: 24px;
+      font-size: 18px;
     }
     ul {
       margin-top: 8px;
-      font-size: 20px;
+      font-size: 18px;
 
       padding-left: 24px;
       li {
         padding: 8px 0;
+        max-width: 75ch;
       }
     }
   }

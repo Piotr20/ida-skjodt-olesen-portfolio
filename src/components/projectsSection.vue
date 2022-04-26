@@ -282,7 +282,7 @@ section {
         padding-bottom: 14px;
       }
       p {
-        padding-top: 14px;
+        padding-top: 24px;
         font-size: 18px;
         width: 85%;
       }

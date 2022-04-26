@@ -2,13 +2,11 @@
   <section id="language">
     <h2 class="language-anim">SPROG</h2>
     <p class="language-anim">
-      Gennem min internationale uddannelse, som Multimediedesigner på
-      Erhvervsakademiet Aarhus, har jeg udviklede mine sproglige egenskaber,
-      samt udvidet min kulturelle forståelse.
+      Gennem min internationale uddannelse, som Multimediedesigner på Erhvervsakademiet Aarhus, har jeg
+      udviklede mine sproglige egenskaber, samt udvidet min kulturelle forståelse.
       <br />
       <br />
-      Erhvervsakademiet Aarhus har interviewet mig til en artikel netop omkring
-      det at studere på engelsk.
+      Erhvervsakademiet Aarhus har interviewet mig til en artikel netop omkring det at studere på engelsk.
     </p>
     <a
       class="language-anim"
@@ -18,10 +16,7 @@
     >
     <div class="flags-container">
       <div class="language-anim">
-        <img
-          src="..\assets\images\emojione_flag-for-denmark.png"
-          alt="Danish flag"
-        />
+        <img src="..\assets\images\emojione_flag-for-denmark.png" alt="Danish flag" />
         <div>
           <span>DANSK</span><br /><span>
             <ul>
@@ -34,10 +29,7 @@
         </div>
       </div>
       <div class="language-anim">
-        <img
-          src="..\assets\images\emojione_flag-for-united-kingdom.png"
-          alt="British flag"
-        />
+        <img src="..\assets\images\emojione_flag-for-united-kingdom.png" alt="British flag" />
 
         <div>
           <span>ENGELSK</span> <br /><span>
@@ -91,7 +83,7 @@ section {
     color: white;
     font-size: 32px;
     padding-bottom: 32px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     position: relative;
     text-transform: uppercase;
     &::after {
@@ -166,13 +158,16 @@ a {
     flex-direction: column;
     align-items: center;
     h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
+      font-size: 32px;
+      padding-bottom: 14px;
     }
     p {
-      font-size: 22px;
+      font-size: 18px;
       width: 75ch;
+    }
+    a {
+      padding: 6px 16px;
+      font-size: 16px;
     }
   }
   .flags-container {
@@ -205,14 +200,6 @@ a {
     h3 {
       font-size: 20px;
     }
-  }
-}
-@media only screen and (min-width: 1440px) {
-  section p {
-    font-size: 22px;
-  }
-  .flags-container h3 {
-    font-size: 22px;
   }
 }
 </style>

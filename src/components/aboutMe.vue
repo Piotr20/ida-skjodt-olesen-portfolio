@@ -4,41 +4,23 @@
       <div class="text-wrapper">
         <h2 class="about-me-anim">IDA SKJØDT OLESEN</h2>
         <p class="about-me-anim">
-          Jeg er særlig passioneret omkring at skabe fortællinger og dele
-          budskaber gennem billeder og video, heriblandt særligt
-          <strong>animation og motion graphics</strong>. Processen med at
-          nørkler med små elementer, som forener sig og går ubemærket hen og
-          bliver stykket sammen som en helhed, giver mig drive.
+          Jeg er særlig passioneret omkring at skabe fortællinger og dele budskaber gennem billeder og video,
+          heriblandt særligt
+          <strong>animation og motion graphics</strong>. Processen med at nørkler med små elementer, som
+          forener sig og går ubemærket hen og bliver stykket sammen som en helhed, giver mig drive.
 
           <br /><br />
-          For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min
-          motivation for mit arbejde, da det at <strong>samarbejder</strong> kan
-          bibringe ellers usete perspektiver på en given sag. Jeg holder af at
-          <strong>sprede godt humør</strong> blandt de mennesker jeg omgås
-          dagligt.
+          For mig er arbejdsmiljøet med mine kollegaer en betydelig del af min motivation for mit arbejde, da
+          det at <strong>samarbejder</strong> kan bibringe ellers usete perspektiver på en given sag. Jeg
+          holder af at <strong>sprede godt humør</strong> blandt de mennesker jeg omgås dagligt.
         </p>
         <div class="based-in-aarhus">
-          <img
-            src="../assets/images/based_in_aarhus_icon.png"
-            alt="personal contact icon"
-          />
+          <img src="../assets/images/based_in_aarhus_icon.png" alt="personal contact icon" />
           <h3>Aarhus</h3>
         </div>
       </div>
       <div class="image-wrapper">
-        <img
-          src="../assets/images/holding_camera_filter.png"
-          alt="Ida's image"
-        />
-        <div>I</div>
-      </div>
-      <div class="image-wrapper">
-        <img src="../assets/images/picturetime.png" alt="Ida's image" />
-        <div>D</div>
-      </div>
-      <div class="image-wrapper">
-        <img src="../assets/images/takingpic_filter.png" alt="Ida's image" />
-        <div>A</div>
+        <img src="../assets/images/holding_camera_filter.png" alt="Ida's image" />
       </div>
     </div>
   </section>
@@ -73,9 +55,6 @@ section {
 }
 .grid-container {
   width: 100%;
-  height: 150vh;
-  display: grid;
-  grid-template-rows: 2fr 1fr 1fr 1fr;
   grid-gap: 24px;
   padding: 24px 0;
 }
@@ -86,7 +65,7 @@ section {
   position: relative;
   &::after {
     content: "";
-    width: 75%;
+    width: 100%;
     height: 100%;
     top: 0;
     left: 0;
@@ -108,7 +87,7 @@ section {
   }
   img {
     height: 100%;
-    width: 75%;
+    width: 100%;
     object-fit: cover;
     object-position: center 10%;
   }
@@ -160,6 +139,7 @@ section {
 }
 @media only screen and (min-width: 1024px) {
   .grid-container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 36px;
@@ -170,18 +150,18 @@ section {
     grid-row: 1/4;
     padding: 64px;
     h2 {
-      font-size: 48px;
+      font-size: 32px;
       text-align: left;
       &::after {
         left: 0;
         transform: translateX(0);
         width: 15%;
       }
-      padding-bottom: 72px;
+      padding-bottom: 14px;
     }
     p {
-      padding-top: 72px;
-      font-size: 20px;
+      padding-top: 20px;
+      font-size: 18px;
       width: 85%;
     }
   }
@@ -190,14 +170,13 @@ section {
     display: flex;
     overflow: hidden;
     height: 100%;
+    grid-column: 2/3;
+    grid-row: 1/4;
+
     img {
-      width: 75%;
+      width: 100%;
       object-fit: cover;
       object-position: center 8%;
-    }
-    div {
-      width: 25%;
-      font-size: 128px;
     }
   }
   .based-in-aarhus {
@@ -207,26 +186,6 @@ section {
     }
     h3 {
       font-size: 24px;
-    }
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .grid-container {
-    height: 130vh;
-  }
-  .text-wrapper {
-    p {
-      font-size: 22px;
-      width: 80%;
-    }
-  }
-  .based-in-aarhus {
-    padding-top: 80px;
-    img {
-      width: 100px;
-    }
-    h3 {
-      font-size: 32px;
     }
   }
 }
