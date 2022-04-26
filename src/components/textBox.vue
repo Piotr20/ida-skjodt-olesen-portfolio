@@ -1,5 +1,5 @@
 <template>
-  <section :id="text">
+  <section :id="scrollID">
     <h2>{{ text }}</h2>
   </section>
 </template>
@@ -7,7 +7,7 @@
 <script>
 export default {
   name: "TextBox",
-  props: ["text"],
+  props: ["text", "scrollID"],
 };
 </script>
 

@@ -1,14 +1,14 @@
 <template>
   <IntroSection />
-  <TextBox text="portfolio" />
+  <TextBox text="portfolio" scrollID="portfolio" />
   <Projects />
-  <TextBox text="Om mig" />
+  <TextBox text="Om mig" scrollID="about" />
   <About />
   <AboutMe />
   <TechSkills />
   <Competencies />
   <Language />
-  <TextBox text="cv" />
+  <TextBox text="cv" scrollID="cv" />
   <WorkExpierience />
   <Education />
   <FreelanceProjects />
