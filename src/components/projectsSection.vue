@@ -1,49 +1,6 @@
 <template>
   <section>
     <div class="grid-container">
-      <div class="project project-1">
-        <div class="background-container"></div>
-        <div class="content-contaienr">
-          <h2 class="project-1-anim">Billig Animation</h2>
-          <p class="project-1-anim">
-            Aflsuttende eksamensprojekt med Billig Animation som kunde. Et
-            projekt der nytænkede den måde firmaet brandede sig på, og skabte en
-            ny sjov visuel fremtoning. Projektet var meget alsidigt og mange
-            forskellige værktøjer blev benyttet.
-          </p>
-          <router-link class="project-1-anim" to="/billiganimation"
-            >Se mere</router-link
-          >
-        </div>
-      </div>
-      <div class="project project-2">
-        <div class="background-container"></div>
-        <div class="content-contaienr">
-          <h2 class="project-2-anim">Smokepins</h2>
-          <p class="project-2-anim">
-            Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
-            rigtig stor succes, i den forstand at kunden efterfulgt har
-            implementeret store dele af websitet vi har udarbejdet, samt
-            grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
-            med en kunde og se reelt brugbare resultater.
-          </p>
-          <router-link class="project-2-anim" to="/smokepins"
-            >Se mere</router-link
-          >
-        </div>
-      </div>
-      <div class="project project-3">
-        <div class="background-container"></div>
-        <div class="content-contaienr">
-          <h2 class="project-3-anim">Showreel</h2>
-          <p class="project-3-anim">
-            IDEA: could this be a showreel, at some point?
-          </p>
-          <router-link @click="call()" class="project-3-anim" to="/"
-            >Se mere</router-link
-          >
-        </div>
-      </div>
       <div class="project project-4">
         <div class="background-container"></div>
         <div class="content-contaienr">
@@ -60,10 +17,58 @@
           >
         </div>
       </div>
-      <div class="project project-5">
+      <div class="project project-2">
         <div class="background-container"></div>
         <div class="content-contaienr">
-          <h2 class="project-5-anim">ReGrow</h2>
+          <h2 class="project-2-anim">Smokepins</h2>
+          <p class="project-2-anim">
+            Gruppe eksamensprojekt med Smokepins som kunde. Projektet havde
+            rigtig stor succes, i den forstand at kunden efterfulgt har
+            implementeret store dele af websitet vi har udarbejdet, samt
+            grafikker og markedsførings ideer. En kæmpe fornøjelse at samarbejde
+            med en kunde og se reelt brugbare resultater.
+          </p>
+          <router-link class="project-2-anim" to="/smokepins"
+            >Se mere</router-link>
+        </div>
+      </div>
+      <div class="project project-3">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-3-anim">ReGrow</h2>
+          <p class="project-3-anim">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
+            enim pellentesque sodales id. Donec convallis maecenas viverra
+            venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec
+            at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+            lacinia eleifend.
+          </p>
+          <router-link @click="call()" class="project-3-anim" to="/regrow"
+            >Se mere</router-link>
+        </div>
+      </div>
+
+      <!-- OTHER PROJECTS -->
+      
+<!--  <div class="project project-1">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-1-anim">Billig Animation</h2>
+          <p class="project-1-anim">
+            Aflsuttende eksamensprojekt med Billig Animation som kunde. Et
+            projekt der nytænkede den måde firmaet brandede sig på, og skabte en
+            ny sjov visuel fremtoning. Projektet var meget alsidigt og mange
+            forskellige værktøjer blev benyttet.
+          </p>
+          <router-link class="project-1-anim" to="/billiganimation"
+            >Se mere</router-link
+          >
+        </div>
+      </div> -->
+      <!-- <div class="project project-5">
+        <div class="background-container"></div>
+        <div class="content-contaienr">
+          <h2 class="project-5-anim">Projekt</h2>
           <p class="project-5-anim">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl
             enim pellentesque sodales id. Donec convallis maecenas viverra
@@ -71,10 +76,10 @@
             at auctor commodo, urna auctor quam. Dolor consequat, eget elementum
             lacinia eleifend.
           </p>
-          <router-link class="project-5-anim" to="/Regrow">Se mere</router-link>
+          <router-link class="project-5-anim" to="/">Se mere</router-link>
         </div>
-      </div>
-    </div>
+      </div> -->
+    </div> 
   </section>
 </template>
 

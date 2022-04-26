@@ -5,15 +5,13 @@
     <div>
       <h2 class="">PROJECT BESKRIVELSE</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim
-        pellentesque sodales id. Donec convallis maecenas viverra venenatis
-        tincidunt consectetur pulvinar dignissim. Elit lacus donec at auctor
-        commodo, urna auctor quam. Dolor consequat, eget elementum lacinia
-        eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-        nisl enim pellentesque sodales id. Donec convallis maecenas viverra
-        venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at
-        auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-        lacinia eleifend.
+        RePot er dansk startup virksomhed skabt af tre studerende fra Digital Konceptudvikling 
+        på erhvervsakademi Aarhus. Målet for virksomheden er at sælge 100% bionedbrydelige potter, 
+        samt at skabe opmærksomhed omkring bæredygtig udvikling og oprette et community omkring dette.
+        <br><br>
+        Projektet havde til formål at skabe et solidt fundament for virksomhedens fremtid gennem 
+        ’Storyscaping’ konceptet. Dette indebærer at kreere et univers med fordybende oplevelser som 
+        kan skabe en relation mellem brandet og kunden, som giver emotionel engageret kunder som afkast.
       </p>
     </div>
     <div>
@@ -30,7 +28,6 @@
       'Logo',
       'Website',
       'Storyscaping - UX',
-      'Animations',
       'Animations',
       'Social Media',
     ]"
@@ -64,7 +61,7 @@
     ]"
   />
 
-  <TwoRowsLayout_regrow headingText="Design" />
+  <TwoRowsLayout_regrow headingText="Brandets budskab" />
 </template>
 <script>
 import TextBox from "../components/textBox.vue";

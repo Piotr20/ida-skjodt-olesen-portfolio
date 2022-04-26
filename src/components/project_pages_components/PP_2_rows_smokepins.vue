@@ -79,7 +79,10 @@ h2 {
     text-align: left;
     color: #95867d;
   }
+  /* dunno what i did here */
   //why is this not working?!
+
+
   &::after {
     content: "";
     position: absolute;
@@ -95,7 +98,7 @@ h2 {
   padding: 24px 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: minmax(100%);
+  grid-template-rows: minmax(50%);
   grid-gap: 24px;
   & > div {
     display: flex;
@@ -115,7 +118,10 @@ h2 {
 }
 img {
   width: 100%;
-} //tempoary thing i did to style image
+} 
+
+/* fix image styling on all project pages */
+//tempoary thing i did to style image
 
 @media only screen and (min-width: 1024px) {
   section {

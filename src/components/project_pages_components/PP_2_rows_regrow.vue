@@ -3,12 +3,21 @@
     <h2 class="about-me-anim">{{ headingText }}</h2>
     <div class="grid-container">
       <div class="cell-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-        eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat quasi
-        maxime! Ea.
+        Herved blev ReGrow til, et brand der har en meget direkte kommunikation, der er seriøs, 
+        dramatisk og kraftfuld. Skaberne bag RePot har udtalt at de ikke var blege for at være 
+        netop dette. ReGrow’s Organizing Idea er ”It is your time”, som illustrere at ’du’ skal 
+        tage handling, det er ‘dig’ som har et valg. 
+        <br>
+        Brandet er opmærksomhed på at rede planeten, 
+        og med dette statement sætter det tiden i fokus, det er nu det skal ske. ReGrow fokusere 
+        på den større sag, det handler ikke kun om at sælge et produkt.
       </div>
       <div class="cell-2">
-        <img src="../../assets/images/logo.png" alt="" />
+
+        <!-- NEEDS STYLING -->
+        <!-- <img src="../../assets/images/regrow/business_card_mockup_bag.png" alt="" /> -->
+        <!-- fix image styling on all project pages -->
+
       </div>
       <div class="cell-3">3 rem ipsum dolor sit amet consec</div>
       <div class="cell-4">
