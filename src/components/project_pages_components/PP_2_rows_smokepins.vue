@@ -7,25 +7,33 @@
     <div class="grid-container">
       <div class="cell-1">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eius repellat voluptas
-          obcaecati fuga distinctio voluptatum fugiat quasi maxime! Ea.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+          eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat
+          quasi maxime! Ea.
           <br /><br />
-          We created a unique visual identity that carried through all. aspects of the business distingushes
-          Smokepins ApS from other competitiors making their brand memorable. This project was not. as much
-          for a coding as it was rather for design and marketing. Even though it was not very code-wise
-          project we included. several immersive effects like e. g. lines drawing on scroll.
+          We created a unique visual identity that carried through all. aspects
+          of the business distingushes Smokepins ApS from other competitiors
+          making their brand memorable. This project was not. as much for a
+          coding as it was rather for design and marketing. Even though it was
+          not very code-wise project we included. several immersive effects like
+          e. g. lines drawing on scroll.
         </p>
       </div>
       <div class="cell-2">
-        <img src="../../assets/images/smokepins/smokepins-styletile.png" alt="Smokepins styletile" />
+        <img
+          src="../../assets/images/smokepins/smokepins-styletile.png"
+          alt="Smokepins styletile"
+        />
       </div>
       <div class="cell-3">
-        <img src="../../assets/images/smokepins/smokepins-closedbox.png" alt="Smokepins box closed" />
+        <img
+          src="../../assets/images/smokepins/smokepins-closedbox.png"
+          alt="Smokepins box closed"
+        />
       </div>
       <div class="cell-4"></div>
       <div class="cell-5 heading-cell">
-
-        <br><br> 
+        <br /><br />
 
         <!-- i need multiple headings, you made it weird -->
 
@@ -35,13 +43,17 @@
       <div class="cell-6"></div>
       <div class="cell-7">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis recusandae distinctio vel eos,
-          nemo eum perferendis temporibus minima quam odit, rerum obcaecati est similique qui? Eveniet magni
-          eum odit sapiente.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          recusandae distinctio vel eos, nemo eum perferendis temporibus minima
+          quam odit, rerum obcaecati est similique qui? Eveniet magni eum odit
+          sapiente.
         </p>
       </div>
       <div class="cell-8">
-        <img src="../../assets/images/smokepins/smokepins-logo-all.png" alt="Smokepins logo" />
+        <img
+          src="../../assets/images/smokepins/smokepins-logo-all.png"
+          alt="Smokepins logo"
+        />
       </div>
     </div>
   </section>
@@ -111,7 +123,7 @@ h2 {
 }
 img {
   width: 100%;
-} 
+}
 /* fix image styling on all project pages */
 //tempoary thing i did to style image
 

@@ -73,10 +73,18 @@
         />
       </div>
       <div class="icon-box vyond-logo">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/Vyond_Logo.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/Vyond_Logo.png"
+          alt=""
+        />
       </div>
       <div class="icon-box monday-logo">
-        <img class="technical-skills-anim" src="../assets/images/skills-icons/Monday-Logo.png" alt="" />
+        <img
+          class="technical-skills-anim"
+          src="../assets/images/skills-icons/Monday-Logo.png"
+          alt=""
+        />
       </div>
     </div>
   </section>

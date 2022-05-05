@@ -2,7 +2,9 @@
   <section id="contact">
     <h2 class="contact-anim">Kontakt mig</h2>
     <div class="links-container">
-      <a class="contact-anim" href="mailto:Ida.skjodt@gmail.com">Ida.skjodt@gmail.com</a>
+      <a class="contact-anim" href="mailto:Ida.skjodt@gmail.com"
+        >Ida.skjodt@gmail.com</a
+      >
       <a class="contact-anim" href="tel:+4540238003">+45 40 23 80 03</a>
     </div>
   </section>

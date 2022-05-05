@@ -11,12 +11,17 @@
         <span>Kasseassistent i Sales</span>
         <ul>
           <li>
-            At kunne holde et overblik i pressede situationer, samt at levere en god service til kunder, så de
-            har en god oplevelse og en god start på deres rejse.
+            At kunne holde et overblik i pressede situationer, samt at levere en
+            god service til kunder, så de har en god oplevelse og en god start
+            på deres rejse.
           </li>
-          <li>At opholde sig i et internationalt miljø, at kommunikere blandt mange kulturer.</li>
           <li>
-            At sikre sig at sikkerheds reglementer bliver overholdt, både for kunder og personalets sikkerhed.
+            At opholde sig i et internationalt miljø, at kommunikere blandt
+            mange kulturer.
+          </li>
+          <li>
+            At sikre sig at sikkerheds reglementer bliver overholdt, både for
+            kunder og personalets sikkerhed.
           </li>
         </ul>
       </div>
@@ -27,12 +32,13 @@
         <span>Service medarbejder</span>
         <ul>
           <li>
-            Ansvarlig for at butikken i aftentimerne, samt at kunne håndtere og løse evt. uforudsete
-            situationer der kunne opstå.
+            Ansvarlig for at butikken i aftentimerne, samt at kunne håndtere og
+            løse evt. uforudsete situationer der kunne opstå.
           </li>
           <li>
-            Sørge for at kunderne får en god oplevelse på deres indkøbstur, og at de får den hjælp de har
-            behov for, samt at de får et smil med på vejen.
+            Sørge for at kunderne får en god oplevelse på deres indkøbstur, og
+            at de får den hjælp de har behov for, samt at de får et smil med på
+            vejen.
           </li>
         </ul>
       </div>
@@ -43,24 +49,26 @@
         <span>Motion Graphics praktikant</span>
         <ul>
           <li>
-            Jeg har gennem praktikken været en del af den overordnede arbejdsproces. Fra kunden kommer med et
-            ønske om animationsfilm til de får deres færdige produkt.
+            Jeg har gennem praktikken været en del af den overordnede
+            arbejdsproces. Fra kunden kommer med et ønske om animationsfilm til
+            de får deres færdige produkt.
           </li>
           <li>
-            Kundekontakt i forbindelse med opstartsfasen, dialoger om hvilket produkt kunden ønsker. Samt
-            sparring med kunden gennem hele fasen.
+            Kundekontakt i forbindelse med opstartsfasen, dialoger om hvilket
+            produkt kunden ønsker. Samt sparring med kunden gennem hele fasen.
           </li>
           <li>
-            Udarbejdelse af animationsfilm, i programmet Vyond, samt redigering og lyddesign af filmen i
-            Premiere Pro.
+            Udarbejdelse af animationsfilm, i programmet Vyond, samt redigering
+            og lyddesign af filmen i Premiere Pro.
           </li>
           <li>
-            Udarbejdelse af grafikker, i Illustrator og photoshop, samt udarbejdelse af video og animation, i
-            After Effects, som som supplement til animationsfilm.
+            Udarbejdelse af grafikker, i Illustrator og photoshop, samt
+            udarbejdelse af video og animation, i After Effects, som som
+            supplement til animationsfilm.
           </li>
           <li>
-            En stor del af arbejdet har involveret kreativ formidling af diverse budskaber skriftligt, visuelt
-            og auditiv.
+            En stor del af arbejdet har involveret kreativ formidling af diverse
+            budskaber skriftligt, visuelt og auditiv.
           </li>
         </ul>
       </div>

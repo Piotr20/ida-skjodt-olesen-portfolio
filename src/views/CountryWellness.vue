@@ -5,12 +5,15 @@
     <div>
       <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim pellentesque sodales id. Donec
-        convallis maecenas viverra venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at
-        auctor commodo, urna auctor quam. Dolor consequat, eget elementum lacinia eleifend. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit. Nunc nisl enim pellentesque sodales id. Donec convallis
-        maecenas viverra venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at auctor
-        commodo, urna auctor quam. Dolor consequat, eget elementum lacinia eleifend.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim
+        pellentesque sodales id. Donec convallis maecenas viverra venenatis
+        tincidunt consectetur pulvinar dignissim. Elit lacus donec at auctor
+        commodo, urna auctor quam. Dolor consequat, eget elementum lacinia
+        eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+        nisl enim pellentesque sodales id. Donec convallis maecenas viverra
+        venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at
+        auctor commodo, urna auctor quam. Dolor consequat, eget elementum
+        lacinia eleifend.
       </p>
     </div>
     <div>

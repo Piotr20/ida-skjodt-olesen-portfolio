@@ -5,22 +5,35 @@
     <div>
       <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        RePot er dansk startup virksomhed skabt af tre studerende fra Digital Konceptudvikling 
-        på Erhvervsakademi Aarhus. Målet for virksomheden er at sælge 100% bionedbrydelige potter, 
-        samt at skabe opmærksomhed omkring bæredygtig udvikling og oprette et community omkring dette.
-        <br><br>
-        Projektet havde til formål at skabe et solidt fundament for virksomhedens fremtid gennem 
-        ’Storyscaping’ konceptet. Dette indebærer at kreere et univers med fordybende oplevelser som 
-        kan skabe en relation mellem brandet og kunden, som giver emotionel engageret kunder som afkast.
+        RePot er dansk startup virksomhed skabt af tre studerende fra Digital
+        Konceptudvikling på Erhvervsakademi Aarhus. Målet for virksomheden er at
+        sælge 100% bionedbrydelige potter, samt at skabe opmærksomhed omkring
+        bæredygtig udvikling og oprette et community omkring dette.
+        <br /><br />
+        Projektet havde til formål at skabe et solidt fundament for
+        virksomhedens fremtid gennem ’Storyscaping’ konceptet. Dette indebærer
+        at kreere et univers med fordybende oplevelser som kan skabe en relation
+        mellem brandet og kunden, som giver emotionel engageret kunder som
+        afkast.
       </p>
     </div>
     <div>
-      <img src="../assets/images/regrow/regrow_business_card_mockup2.png" alt="Regrow business card mockup" />
+      <img
+        src="../assets/images/regrow/regrow_business_card_mockup2.png"
+        alt="Regrow business card mockup"
+      />
     </div>
   </section>
   <ProjectDetails
     client="RePot ApS"
-    :services="['Rebranding', 'Logo', 'Website', 'Storyscaping - UX', 'Animations', 'Social Media']"
+    :services="[
+      'Rebranding',
+      'Logo',
+      'Website',
+      'Storyscaping - UX',
+      'Animations',
+      'Social Media',
+    ]"
     :toolsSrc="[
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),
@@ -51,10 +64,7 @@
     ]"
   />
 
-  <TwoRowsLayout_regrow headingText="Brandets budskab" />
-  <!-- can you just do so that the heading is in the "PP_2_rows_regrow"??
-  its weird i have to change it here -->
-
+  <TwoRowsLayout_regrow />
 </template>
 <script>
 import TextBox from "../components/textBox.vue";

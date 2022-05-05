@@ -3,8 +3,9 @@
     <h2 class="about-me-anim">{{ headingText }}</h2>
     <div class="grid-container">
       <div class="cell-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eius repellat voluptas obcaecati
-        fuga distinctio voluptatum fugiat quasi maxime! Ea.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
+        eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat quasi
+        maxime! Ea.
       </div>
       <div class="cell-2">
         <img src="../../assets/images/logo.png" alt="" />

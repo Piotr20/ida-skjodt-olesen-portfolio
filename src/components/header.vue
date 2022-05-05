@@ -16,7 +16,10 @@
     </div>
     <div class="burger-curtain" :class="{ active: displayBurger }">
       <div class="gradient-overlay">
-        <div class="burger-close-container" @click="displayBurger = !displayBurger">
+        <div
+          class="burger-close-container"
+          @click="displayBurger = !displayBurger"
+        >
           <font-awesome-icon class="burger-close" icon="times" />
         </div>
 
@@ -29,7 +32,9 @@
           <li><a @click="displayBurger = false" href="#contact">Contact</a></li>
         </ul>
         <a class="logo-curtain" @click="displayBurger = false" href="#">
-          <img src="../assets/images/logo_white.png" alt="Ida Skjødt Olesen logo"
+          <img
+            src="../assets/images/logo_white.png"
+            alt="Ida Skjødt Olesen logo"
         /></a>
       </div>
     </div>
@@ -89,7 +94,12 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(135deg, #ff5b459d 0%, #ff68b696 45%, #b555e296 100%);
+  background: linear-gradient(
+    135deg,
+    #ff5b459d 0%,
+    #ff68b696 45%,
+    #b555e296 100%
+  );
   backdrop-filter: blur(14px) opacity(100%);
 }
 .burger-curtain.active {
