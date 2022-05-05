@@ -111,6 +111,7 @@ section {
   h2 {
     color: #95867d;
     text-align: center;
+
     &::after {
       background-color: #95867d;
       transform: translateX(-50%);
@@ -126,10 +127,9 @@ section {
     div {
       padding: 64px;
       h2 {
-        font-size: 158px;
-        font-size: 48px;
-        padding-bottom: 48px;
-        margin-bottom: 48px;
+        font-size: 32px;
+        padding-bottom: 14px;
+        margin-bottom: 24px;
 
         text-align: left;
         &::after {
@@ -143,7 +143,7 @@ section {
         text-align: left;
       }
       h3 {
-        font-size: 26px;
+        font-size: 22px;
       }
     }
   }
@@ -151,6 +151,7 @@ section {
     gap: 36px;
     align-items: center;
     justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
     img {
       width: 100%;
     }

@@ -5,15 +5,12 @@
     <div>
       <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim
-        pellentesque sodales id. Donec convallis maecenas viverra venenatis
-        tincidunt consectetur pulvinar dignissim. Elit lacus donec at auctor
-        commodo, urna auctor quam. Dolor consequat, eget elementum lacinia
-        eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-        nisl enim pellentesque sodales id. Donec convallis maecenas viverra
-        venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at
-        auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-        lacinia eleifend.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim pellentesque sodales id. Donec
+        convallis maecenas viverra venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at
+        auctor commodo, urna auctor quam. Dolor consequat, eget elementum lacinia eleifend. Lorem ipsum dolor
+        sit amet, consectetur adipiscing elit. Nunc nisl enim pellentesque sodales id. Donec convallis
+        maecenas viverra venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at auctor
+        commodo, urna auctor quam. Dolor consequat, eget elementum lacinia eleifend.
       </p>
     </div>
     <div>
@@ -145,10 +142,9 @@ section.project-details {
       }
     }
     h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
-      margin-bottom: 48px;
+      font-size: 32px;
+      padding-bottom: 14px;
+      margin-bottom: 24px;
 
       text-align: left;
       &::after {
@@ -158,23 +154,8 @@ section.project-details {
       }
     }
     p {
-      font-size: 20px;
+      font-size: 18px;
       text-align: left;
-    }
-  }
-}
-@media only screen and (min-width: 1440px) {
-  section.project-details {
-    h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
-      &::after {
-        width: 10%;
-      }
-    }
-    p {
-      font-size: 22px;
     }
   }
 }

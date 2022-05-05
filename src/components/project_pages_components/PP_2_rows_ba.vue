@@ -3,9 +3,8 @@
     <h2 class="about-me-anim">{{ headingText }}</h2>
     <div class="grid-container">
       <div class="cell-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-        eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat quasi
-        maxime! Ea.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eius repellat voluptas obcaecati
+        fuga distinctio voluptatum fugiat quasi maxime! Ea.
       </div>
       <div class="cell-2">
         <img src="../../assets/images/logo.png" alt="" />
@@ -79,11 +78,12 @@ h2 {
   }
   h2 {
     text-align: left;
-    font-size: 48px;
+    font-size: 32px;
+    padding-bottom: 14px;
     &::after {
       transform: translateX(0);
       left: 0;
-      width: 20%;
+      width: 4%;
     }
   }
 }

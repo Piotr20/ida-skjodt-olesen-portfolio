@@ -73,18 +73,10 @@
         />
       </div>
       <div class="icon-box vyond-logo">
-        <img
-          class="technical-skills-anim"
-          src="../assets/images/skills-icons/Vyond_Logo.png"
-          alt=""
-        />
+        <img class="technical-skills-anim" src="../assets/images/skills-icons/Vyond_Logo.png" alt="" />
       </div>
       <div class="icon-box monday-logo">
-        <img
-          class="technical-skills-anim"
-          src="../assets/images/skills-icons/Monday-Logo.png"
-          alt=""
-        />
+        <img class="technical-skills-anim" src="../assets/images/skills-icons/Monday-Logo.png" alt="" />
       </div>
     </div>
   </section>
@@ -166,25 +158,24 @@ section {
     width: 100%;
     padding: 64px;
     h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
+      font-size: 32px;
+      padding-bottom: 14px;
       &::after {
         width: 10%;
       }
     }
   }
   .skills-container {
-    padding-top: 88px;
+    padding-top: 24px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    height: 42vh;
-    width: 35%;
+    height: 32vh;
+    width: 30%;
     margin: 0 auto;
     justify-items: center;
     align-items: center;
     .icon-box {
-      width: 80%;
+      width: 100%;
     }
     .vyond-logo {
       grid-column: 1/3;

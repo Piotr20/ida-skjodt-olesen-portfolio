@@ -11,35 +11,27 @@
 
         <ul>
           <li>
-            Gennem uddannelsen har jeg udvidet min faglighed indenfor
-            grundlæggende design teori, herunder digital design og lært omkring
-            psykologiske faktorer der påvirker brugere. Jeg har kunne
+            Gennem uddannelsen har jeg udvidet min faglighed indenfor grundlæggende design teori, herunder
+            digital design og lært omkring psykologiske faktorer der påvirker brugere. Jeg har kunne
             implementere denne viden i virkelighedsnære projekter.
           </li>
           <li>
-            Jeg har lært om traditionel markedsføring samt markedsføring gennem
-            sociale medier og om hvordan man henvender sig strategisk til
-            målgruppen, med målrettet content.
+            Jeg har lært om traditionel markedsføring samt markedsføring gennem sociale medier og om hvordan
+            man henvender sig strategisk til målgruppen, med målrettet content.
           </li>
           <li>
-            Jeg har arbejdet med forskellige content typer, herunder grafiske
-            elementer, video og animation (motion graphics) henvendt til
-            specifikke målgrupper.
+            Jeg har arbejdet med forskellige content typer, herunder grafiske elementer, video og animation
+            (motion graphics) henvendt til specifikke målgrupper.
+          </li>
+          <li>Jeg har arbejdet med frontend programmering af hjemmesider, samt arbejdet med CMS-systemer.</li>
+          <li>
+            I projekter har jeg primært stået for organiseringen og planlægning af arbejdsforløbet. Jeg har
+            sørget for at alle opgaver bliver lavet i følge tidsplanen, og haft det forkromende overblik hele
+            vejen igennem.
           </li>
           <li>
-            Jeg har arbejdet med frontend programmering af hjemmesider, samt
-            arbejdet med CMS-systemer.
-          </li>
-          <li>
-            I projekter har jeg primært stået for organiseringen og planlægning
-            af arbejdsforløbet. Jeg har sørget for at alle opgaver bliver lavet
-            i følge tidsplanen, og haft det forkromende overblik hele vejen
-            igennem.
-          </li>
-          <li>
-            Gennem den internationale linje har jeg udviklet mine internationale
-            og sproglige kompetencer, herunder fået en global forståelse af
-            kulturer.
+            Gennem den internationale linje har jeg udviklet mine internationale og sproglige kompetencer,
+            herunder fået en global forståelse af kulturer.
           </li>
         </ul>
       </div>
@@ -48,21 +40,15 @@
         <h2>Erhvervsgymnasiet Grindsted</h2>
         <h3>2015 - 2018</h3>
         <span
-          >Højere Teknisk Eksamen (HTX) - Kommunikation & IT <br /><br />Uddrag
-          fra udtalelsen til legatmodtagelse:
+          >Højere Teknisk Eksamen (HTX) - Kommunikation & IT <br /><br />Uddrag fra udtalelsen til
+          legatmodtagelse:
         </span>
         <ul>
-          <li>
-            Legatmodtageren har altid stillet sig til rådighed for skolen.
-          </li>
-          <li>
-            Legatmodtageren har igennem sine år på skolen påtaget sig et ansvar
-            for alles trivsel.
-          </li>
+          <li>Legatmodtageren har altid stillet sig til rådighed for skolen.</li>
+          <li>Legatmodtageren har igennem sine år på skolen påtaget sig et ansvar for alles trivsel.</li>
           <li>Legatmodtageren tager ansvar for egen læring og udvikling.</li>
           <li>
-            Legatmodtageren har haft overskud til at deltage i skolerelateret
-            aktiviteter udenfor skoletiden.
+            Legatmodtageren har haft overskud til at deltage i skolerelateret aktiviteter udenfor skoletiden.
           </li>
         </ul>
       </div>
@@ -137,24 +123,28 @@ section {
     grid-template-columns: 2fr 1fr;
     grid-auto-rows: minmax(min-content, max-content);
     grid-gap: 36px;
+    .education-box {
+      padding: 48px;
+    }
     h2 {
-      font-size: 40px;
+      font-size: 32px;
     }
     h3 {
-      font-size: 32px;
-      padding-top: 8px;
-      margin-bottom: 24px;
+      font-size: 22px;
+      padding-top: 2px;
+      margin-bottom: 8px;
     }
     span {
-      font-size: 24px;
+      font-size: 18px;
     }
     ul {
       margin-top: 8px;
-      font-size: 20px;
+      font-size: 18px;
 
       padding-left: 24px;
       li {
         padding: 8px 0;
+        max-width: 75ch;
       }
     }
   }

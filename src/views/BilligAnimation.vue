@@ -5,19 +5,17 @@
     <div>
       <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        Billig Animation ApS er et datterselskab til Viral Film ApS, som blev
-        oprettet i 2017 og er placeret i Aarhus. Billig Animation ApS tilbyder
-        professionelle animationsfilm til lav markedspris. Formålet for
-        virksomheden er at skabe kunde engagement på en sjov, unik og anderledes
-        måde, netop gennem animationsfilm.
+        Billig Animation ApS er et datterselskab til Viral Film ApS, som blev oprettet i 2017 og er placeret i
+        Aarhus. Billig Animation ApS tilbyder professionelle animationsfilm til lav markedspris. Formålet for
+        virksomheden er at skabe kunde engagement på en sjov, unik og anderledes måde, netop gennem
+        animationsfilm.
         <br /><br />
-        I samarbejdet med Billig Animation, benyttede vi virksomheden som case
-        til vores afsluttende eksamensprojekt.
+        I samarbejdet med Billig Animation, benyttede vi virksomheden som case til vores afsluttende
+        eksamensprojekt.
         <br /><br />
-        Formålet var at forbedre Billig Animations nuværende website, med fokus
-        på performance, SEO og user experience. Samt at inkoporer et design der
-        reflektere professionalisme og fremhæver virksomhedens kreative
-        grundessens.
+        Formålet var at forbedre Billig Animations nuværende website, med fokus på performance, SEO og user
+        experience. Samt at inkoporer et design der reflektere professionalisme og fremhæver virksomhedens
+        kreative grundessens.
       </p>
     </div>
     <div>
@@ -29,13 +27,7 @@
   </section>
   <ProjectDetails
     client="Billig Animation ApS"
-    :services="[
-      'Rebranding',
-      'Logo',
-      'UX & UI design',
-      'Animation',
-      'Sociale Medier',
-    ]"
+    :services="['Rebranding', 'Logo', 'UX & UI design', 'Animation', 'Sociale Medier']"
     :toolsSrc="[
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),
@@ -147,10 +139,9 @@ section.project-details {
       }
     }
     h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
-      margin-bottom: 48px;
+      font-size: 32px;
+      padding-bottom: 14px;
+      margin-bottom: 24px;
 
       text-align: left;
       &::after {
@@ -160,23 +151,8 @@ section.project-details {
       }
     }
     p {
-      font-size: 20px;
+      font-size: 18px;
       text-align: left;
-    }
-  }
-}
-@media only screen and (min-width: 1440px) {
-  section.project-details {
-    h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
-      &::after {
-        width: 10%;
-      }
-    }
-    p {
-      font-size: 22px;
     }
   }
 }

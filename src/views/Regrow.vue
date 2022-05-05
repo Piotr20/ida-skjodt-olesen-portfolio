@@ -15,22 +15,12 @@
       </p>
     </div>
     <div>
-      <img
-        src="../assets/images/regrow/regrow_business_card_mockup2.png"
-        alt="Regrow business card mockup"
-      />
+      <img src="../assets/images/regrow/regrow_business_card_mockup2.png" alt="Regrow business card mockup" />
     </div>
   </section>
   <ProjectDetails
     client="RePot ApS"
-    :services="[
-      'Rebranding',
-      'Logo',
-      'Website',
-      'Storyscaping - UX',
-      'Animations',
-      'Social Media',
-    ]"
+    :services="['Rebranding', 'Logo', 'Website', 'Storyscaping - UX', 'Animations', 'Social Media']"
     :toolsSrc="[
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),
@@ -144,10 +134,9 @@ section.project-details {
       }
     }
     h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
-      margin-bottom: 48px;
+      font-size: 32px;
+      padding-bottom: 14px;
+      margin-bottom: 24px;
 
       text-align: left;
       &::after {
@@ -157,23 +146,8 @@ section.project-details {
       }
     }
     p {
-      font-size: 20px;
+      font-size: 18px;
       text-align: left;
-    }
-  }
-}
-@media only screen and (min-width: 1440px) {
-  section.project-details {
-    h2 {
-      font-size: 158px;
-      font-size: 48px;
-      padding-bottom: 48px;
-      &::after {
-        width: 10%;
-      }
-    }
-    p {
-      font-size: 22px;
     }
   }
 }

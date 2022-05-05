@@ -48,7 +48,6 @@
         <!-- fix image styling on all project pages -->
         <img src="../../assets/images/regrow/styletile_regrow_ver2.png" alt="Styletile Regrow Ver 2" />
         <!-- fix image styling on all project pages -->
-
       </div>
 
       <div class="cell-5">
@@ -143,11 +142,12 @@ h2 {
   }
   h2 {
     text-align: left;
-    font-size: 48px;
+    font-size: 32px;
+    padding-bottom: 14px;
     &::after {
       transform: translateX(0);
       left: 0;
-      width: 20%;
+      width: 4%;
     }
   }
 }
