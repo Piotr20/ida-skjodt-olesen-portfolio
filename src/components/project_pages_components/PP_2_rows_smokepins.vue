@@ -1,6 +1,9 @@
 <template>
   <section id="2-rows-grid">
     <h2 class="about-me-anim">Design og visuel identitet</h2>
+
+    <!-- i need multiple headings, you made it weird -->
+
     <div class="grid-container">
       <div class="cell-1">
         <p>
@@ -30,7 +33,11 @@
       </div>
       <div class="cell-4"></div>
       <div class="cell-5 heading-cell">
-        <br /><br />
+
+        <br><br> 
+
+        <!-- i need multiple headings, you made it weird -->
+
         <h2 class="about-me-anim">Logo design</h2>
         <br />
       </div>
@@ -119,7 +126,6 @@ h2 {
 img {
   width: 100%;
 } 
-
 /* fix image styling on all project pages */
 //tempoary thing i did to style image
 

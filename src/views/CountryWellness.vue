@@ -3,7 +3,7 @@
   <TextBox text="Country Wellness" />
   <section class="project-details">
     <div>
-      <h2 class="">PROJECT BESKRIVELSE</h2>
+      <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim
         pellentesque sodales id. Donec convallis maecenas viverra venenatis

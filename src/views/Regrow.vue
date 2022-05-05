@@ -3,10 +3,10 @@
   <TextBox text="regrow" />
   <section class="project-details">
     <div>
-      <h2 class="">PROJECT BESKRIVELSE</h2>
+      <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
         RePot er dansk startup virksomhed skabt af tre studerende fra Digital Konceptudvikling 
-        på erhvervsakademi Aarhus. Målet for virksomheden er at sælge 100% bionedbrydelige potter, 
+        på Erhvervsakademi Aarhus. Målet for virksomheden er at sælge 100% bionedbrydelige potter, 
         samt at skabe opmærksomhed omkring bæredygtig udvikling og oprette et community omkring dette.
         <br><br>
         Projektet havde til formål at skabe et solidt fundament for virksomhedens fremtid gennem 
@@ -62,6 +62,9 @@
   />
 
   <TwoRowsLayout_regrow headingText="Brandets budskab" />
+  <!-- can you just do so that the heading is in the "PP_2_rows_regrow"??
+  its weird i have to change it here -->
+
 </template>
 <script>
 import TextBox from "../components/textBox.vue";
