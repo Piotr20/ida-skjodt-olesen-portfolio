@@ -27,7 +27,7 @@
       </div>
       <div class="image-wrapper">
         <img
-          src="../assets/images/holding_camera_filter.png"
+          src="../assets/images/picturetime-crop.png"
           alt="Ida's image"
         />
       </div>

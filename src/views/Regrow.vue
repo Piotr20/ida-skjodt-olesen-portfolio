@@ -32,7 +32,7 @@
       'Website',
       'Storyscaping - UX',
       'Animations',
-      'Social Media',
+      'Sociale Medier',
     ]"
     :toolsSrc="[
       {

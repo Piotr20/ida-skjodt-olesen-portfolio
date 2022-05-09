@@ -5,15 +5,18 @@
     <div>
       <h2 class="">PROJEKT BESKRIVELSE</h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nisl enim
-        pellentesque sodales id. Donec convallis maecenas viverra venenatis
-        tincidunt consectetur pulvinar dignissim. Elit lacus donec at auctor
-        commodo, urna auctor quam. Dolor consequat, eget elementum lacinia
-        eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-        nisl enim pellentesque sodales id. Donec convallis maecenas viverra
-        venenatis tincidunt consectetur pulvinar dignissim. Elit lacus donec at
-        auctor commodo, urna auctor quam. Dolor consequat, eget elementum
-        lacinia eleifend.
+        Country Wellness er en lille skønhedssalon som ligger ude på landet i skønne omgivelser, 
+        heraf navnet. Virksomheden er drevet af Birte som åbnede i 2020.
+        Country Wellness tilbyder på nuværende tidspunkt fodbehandlinger og gellack negle. 
+        Men har planer om at uddvide med blandt andet vipper.
+        <br><br>
+        Jeg har tæt kontakt med kunden siden opstart, og vi holder vores samarbejde kørende.
+        Formålet med projektet var først at skulle etablere et visuelt udtryk af branded, 
+        hvorefter kundens ønske var at oprette en Facebook side, for at kunne interagere med kunder.
+        <br><br>
+        Fremtidsplanerne for projektet at kunne skabe mere engagerende indhold, samt at oprette en
+        tilhørende Instagram. På længere sigt når virksomheden vækster, vil en hjemmeside med et 
+        booking system være relevant.
       </p>
     </div>
     <div>
@@ -24,24 +27,17 @@
     </div>
   </section>
   <ProjectDetails
-    client="RePot ApS"
+    client="Country Wellness"
     :services="[
       'Rebranding',
       'Logo',
-      'Website',
-      'Storyscaping - UX',
-      'Animations',
-      'Animations',
-      'Social Media',
+      'Grafisk design',
+      'Sociale Medier',
     ]"
     :toolsSrc="[
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-photoshop.png'),
       },
-      {
-        src: require('../assets/images/skills-icons/file-icons_adobe-illustrator.png'),
-      },
-
       {
         src: require('../assets/images/skills-icons/file-icons_adobe-premiere.png'),
       },
@@ -50,16 +46,8 @@
         src: require('../assets/images/skills-icons/file-icons_adobe-aftereffects.png'),
       },
       {
-        src: require('../assets/images/skills-icons/file-icons_adobe-xd.png'),
-      },
-      {
         src: require('../assets/images/skills-icons/akar-icons_html-fill.png'),
-      },
-      {
-        src: require('../assets/images/skills-icons/akar-icons_css-fill.png'),
-      },
-      {
-        src: require('../assets/images/skills-icons/brandico_wordpress.png'),
+
       },
     ]"
   />

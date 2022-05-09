@@ -6,18 +6,16 @@
 
     <div class="grid-container">
       <div class="cell-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-          eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat
-          quasi maxime! Ea.
-          <br /><br />
+        <img src="../../assets/images/smokepins/cards-mockups-smokepins.png"
+          alt="Smokepins logo"/>
+       <!--  <p>
           We created a unique visual identity that carried through all. aspects
           of the business distingushes Smokepins ApS from other competitiors
           making their brand memorable. This project was not. as much for a
           coding as it was rather for design and marketing. Even though it was
           not very code-wise project we included. several immersive effects like
           e. g. lines drawing on scroll.
-        </p>
+        </p> -->
       </div>
       <div class="cell-2">
         <img
@@ -25,18 +23,17 @@
           alt="Smokepins styletile"
         />
       </div>
-      <div class="cell-3">
-        <img
-          src="../../assets/images/smokepins/smokepins-closedbox.png"
-          alt="Smokepins box closed"
-        />
+      <!-- <div class="cell-3">
+        <img src="../../assets/images/smokepins/cards-mockups-smokepins.png"
+          alt="Smokepins logo"/>
       </div>
-      <div class="cell-4"></div>
+      <div class="cell-4">
+          <img src="../../assets/images/smokepins/smokepins-logo-all.png"
+          alt="Smokepins logo"/>
+      </div>
+
       <div class="cell-5 heading-cell">
         <br /><br />
-
-        <!-- i need multiple headings, you made it weird -->
-
         <h2 class="about-me-anim">Logo design</h2>
         <br />
       </div>
@@ -50,11 +47,7 @@
         </p>
       </div>
       <div class="cell-8">
-        <img
-          src="../../assets/images/smokepins/smokepins-logo-all.png"
-          alt="Smokepins logo"
-        />
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

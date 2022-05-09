@@ -3,16 +3,17 @@
     <h2 class="about-me-anim">{{ headingText }}</h2>
     <div class="grid-container">
       <div class="cell-1">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,
-        eius repellat voluptas obcaecati fuga distinctio voluptatum fugiat quasi
-        maxime! Ea.
+        <p>Lfesfds
+        </p>
       </div>
       <div class="cell-2">
-        <img src="../../assets/images/logo.png" alt="" />
+        <img src="../../assets/images/country_wellness/country-wellness-business-card-mockup.png" alt="" />
       </div>
+
       <div class="cell-3">3 rem ipsum dolor sit amet consec</div>
+
       <div class="cell-4">
-        <img src="../../assets/images/logo.png" alt="" />
+        <img src="../../assets/images/country_wellness/country-wellness-business-card-mockup.png" alt="" />
       </div>
     </div>
   </section>
@@ -68,6 +69,9 @@ h2 {
       justify-content: center;
       align-items: center;
     } //the type is reffering to which grid box
+  }
+   img {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1024px) {

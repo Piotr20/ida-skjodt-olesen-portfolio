@@ -4,19 +4,21 @@
 
     <div class="grid-container">
       <div class="cell-1">
-        RePot skal være et brand der har en meget direkte kommunikation, der er
-        seriøs, dramatisk og kraftfuld. Skaberne bag RePot har udtalt at de ikke
-        var blege for at være netop dette.
-        <br /><br />
-        Brandet er mere en ’bare’ et produkt, de er forgænger for at skabe
-        opmærksomhed omkring bæredygtighed, det er et community, herved blev
-        ReGrow til.
-        <br /><br />
-        ReGrow’s Organizing Idea er ”It is your time”, som illustrere at ’du’
-        skal tage handling, det er ‘dig’ som har et valg. Brandet er
-        opmærksomhed på at rede planeten, og med dette statement sætter det
-        tiden i fokus, det er nu det skal ske. ReGrow fokusere på den større
-        sag, det handler ikke kun om at sælge et produkt.
+        <p>
+          RePot skal være et brand der har en meget direkte kommunikation, der er
+          seriøs, dramatisk og kraftfuld. Skaberne bag RePot har udtalt at de ikke
+          var blege for at være netop dette.
+          <br /><br />
+          Brandet er mere en ’bare’ et produkt, de er forgænger for at skabe
+          opmærksomhed omkring bæredygtighed, det er et community, herved blev
+          ReGrow til.
+          <br /><br />
+          ReGrow’s Organizing Idea er ”It is your time”, som illustrere at ’du’
+          skal tage handling, det er ‘dig’ som har et valg. Brandet er
+          opmærksomhed på at rede planeten, og med dette statement sætter det
+          tiden i fokus, det er nu det skal ske. ReGrow fokusere på den større
+          sag, det handler ikke kun om at sælge et produkt.
+        </p>
       </div>
 
       <div class="cell-2">
@@ -25,41 +27,48 @@
           controls
           autoplay
           loop
+          muted
         ></video>
       </div>
 
       <div class="cell-3">
-        <!-- i need multiple headings -->
-        <!-- check line 65 in "regrow.vue" -->
-        <!-- I have no idea what you exactly mean you can either copy this h2 tag just like you have been doing or
-        if you want something like on the top of the section you need to put it outside of grid-container div -->
-        <h2 class="about-me-anim">Visuelt udtryk</h2>
-
-        <!-- this picture is not showing -->
-        <!-- It's because the picture is compromised, I can't even open it in finder on windows check the picture or get the new one :( -->
         <img src="../../assets/images/regrow/cards-mockups.png" alt="" />
-        <br />
-        3 rem ipsum dolor sit amet consec
       </div>
 
       <div class="cell-4">
-        <!-- fix image styling on all project pages -->
-        <!-- If you could be more specific how you want the styling to be then I could adjust it they fill the whole cell now -->
-        <img
-          src="../../assets/images/regrow/styletile_regrow_ver2.png"
-          alt="Styletile Regrow Ver 2"
-        />
-        <!-- fix image styling on all project pages -->
+        <img src="../../assets/images/regrow/styletile_regrow_ver2.png"
+          alt="Styletile Regrow Ver 2"/>
       </div>
-
+<br><br>
       <div class="cell-5">
-        <!-- Needs styling insted of 'breaks' -->
-        <!-- i need multiple headings -->
-        <!-- check line 65 in "regrow.vue" -->
+        <h2 class="about-me-anim">Content</h2>
+        
+      </div>
+      <div class="cell-6">
+        
+      </div>
+      <div class="cell-7">
+        <video
+          src="../../assets/images/regrow/repot_video_1.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+      <div class="cell-8"></div>
+      <div class="cell-9">
+        <video
+          src="../../assets/images/regrow/yt-product-ad.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+      <div class="cell-10">
         <h2 class="about-me-anim">Website</h2>
         <div class="mockups-wrapper">
-          <!-- The 3 mockups should be side by side -->
-          <!-- fix image styling on all project pages -->
           <img
             src="../../assets/images/regrow/mockup-frontpage.png"
             alt="mockup frontpage"
@@ -72,13 +81,29 @@
             src="../../assets/images/regrow/mockup-about.png"
             alt="mockup about us"
           />
-          <!-- fix image styling on all project pages -->
+        </div>
         </div>
       </div>
-      <div class="cell-6"></div>
-      <div class="cell-7"></div>
-      <div class="cell-8"></div>
+      <div class="cell-11">
+        <video class="two-video"
+          src="../../assets/images/regrow/planet-drip-bw.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
+        <video class="two-video"
+          src="../../assets/images/regrow/planet-drip.mp4"
+          controls
+          autoplay
+          loop
+          muted
+        ></video>
     </div>
+    <div class="cell-12"></div>
+    <div class="cell-13"></div>
+    <div class="cell-14"></div>
+    <div class="cell-15"></div>
   </section>
 </template>
 
@@ -133,6 +158,14 @@ h2 {
       align-items: center;
     } //the type is reffering to which grid box
     // 4th you dumbass :)
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .mockups-wrapper {
+      padding-top: 12px;
+    }
   }
   .cell-2 {
     video {
@@ -141,7 +174,14 @@ h2 {
       object-fit: cover;
     }
   }
-  .cell-5 {
+  .cell-7 {
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .cell-10 {
     .mockups-wrapper {
       padding-top: 12px;
     }
@@ -149,8 +189,9 @@ h2 {
   img {
     width: 100%;
   }
-  /* fix image styling on all project pages */
-  //tempoary thing i did to style image
+  .two-video {
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 1024px) {
   section {
